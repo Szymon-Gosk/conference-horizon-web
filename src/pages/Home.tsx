@@ -48,7 +48,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="mt-16 space-y-8">
           <div className="bg-white rounded-lg p-8 shadow-sm">
             <h2 className="text-2xl font-bold text-primary mb-6">
               Cel konferencji
