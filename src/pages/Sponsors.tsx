@@ -53,7 +53,7 @@ const Sponsors = () => {
         <h2 className="text-2xl font-semibold text-center mb-8">
           Patronat medialny objęli
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="flex justify-center">
           {mediaSponsors.map((sponsor, index) => (
             <div
               key={index}
