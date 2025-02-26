@@ -2,73 +2,69 @@
 const Committee = () => {
   const scientificCommittee = [
     {
-      name: "Prof. dr hab. Maria Nowacka",
-      title: "Przewodnicząca Komitetu Naukowego",
+      name: "dr Marek Jasiński",
+      title: "prof. Akademii Podlaskiej w Białymstoku, Rektor",
     },
     {
-      name: "Prof. dr hab. Andrzej Kowalski",
-      title: "Członek Komitetu Naukowego",
+      name: "prof. dr hab. n. med. Napoleon Waszkiewicz",
+      title: "Członek Honorowy Komitetu Naukowego Konferencji",
     },
     {
-      name: "Prof. dr hab. Jan Kowalczyk",
-      title: "Członek Komitetu Naukowego",
+      name: "dr hab. n. med. Agnieszka Kułak Bejda",
     },
     {
-      name: "Prof. dr hab. Anna Wiśniewska",
-      title: "Członek Komitetu Naukowego",
+      name: "dr n. med. Anna Rogowska-Zach",
     },
     {
-      name: "Prof. dr hab. Piotr Nowicki",
-      title: "Członek Komitetu Naukowego",
+      name: "dr n. med. Justyna Sołowiej-Chmiel",
     },
     {
-      name: "Prof. dr hab. Barbara Adamska",
-      title: "Członek Komitetu Naukowego",
+      name: "mgr Renata Szymańska",
     },
   ];
 
   const organizingCommitteeChair = {
-    name: "Prof. dr hab. Tomasz Wójcik",
-    title: "Przewodniczący Komitetu Organizacyjnego",
+    name: "mgr Justyna Śniadach",
+    title: "Wykładowca Akademii Podlaskiej w Białymstoku",
   };
 
   const organizingCommitteeViceChair = {
-    name: "Dr hab. Magdalena Kaczmarek",
-    title: "Wiceprzewodnicząca Komitetu Organizacyjnego",
+    name: "dr Anna Kienig",
+    title: "Prorektor ds. Studenckich Akademii Podlaskiej w Białymstoku",
   };
 
   const organizingCommitteeMembers = [
     {
-      name: "Dr Anna Dąbrowska",
-      title: "Członek Komitetu Organizacyjnego",
+      name: "mgr Michał Łopiński",
+      title: "Kierownik Akademii Podlaskiej w Białymstoku",
     },
     {
-      name: "Dr Marek Zieliński",
-      title: "Członek Komitetu Organizacyjnego",
+      name: "Karolina Chomiczewska",
+      title: "Przewodnicząca Studenckiego Koła Naukowego\"Psychologiczne Inspiracje\"",
     },
     {
-      name: "Dr Katarzyna Pawlak",
-      title: "Członek Komitetu Organizacyjnego",
+      name: "Agnieszka Sienkiewicz",
+      title: "Wiceprezes ds. organizacyjnych Studenckiego Koła Naukowego\"Psychologiczne Inspiracje\"",
     },
     {
-      name: "Dr Tomasz Lewandowski",
-      title: "Członek Komitetu Organizacyjnego",
+      name: "Wiktoria Sadlej",
+      title: "Zastępca rzecznika do spraw komunikacji samorządu studenckiego APWB",
     },
     {
-      name: "Mgr Agnieszka Kowalczyk",
-      title: "Członek Komitetu Organizacyjnego",
+      name: "Patrycja Piskurewicz",
+      title: "Członek Studenckiego Koła Naukowego\"Psychologiczne Inspiracje\"",
     },
     {
-      name: "Mgr Jan Nowakowski",
-      title: "Członek Komitetu Organizacyjnego",
+      name: "Juliusz Sokołowski",
+      title: "Rzecznik samorządu studenckiego APWB",
     },
     {
-      name: "Mgr Barbara Witkowska",
-      title: "Członek Komitetu Organizacyjnego",
+      name: "Eleonora Zwarych",
+      title: "Starosta II roku na kierunku psychologia",
     },
     {
-      name: "Mgr Piotr Adamski",
-      title: "Członek Komitetu Organizacyjnego",
+      name: "Joanna Sobolewska",
+      title: "Kierownik Rektoratu",
     },
   ];
 

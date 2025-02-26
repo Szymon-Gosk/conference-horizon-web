@@ -2,23 +2,23 @@
 const Sponsors = () => {
   const honorarySponsors = [
     {
-      name: "Example University",
+      name: "Honorowy Patronat Prezydenta Miasta Białegostoku",
+      logo: "/logos/patronat-bialystok.png",
+    },
+    {
+      name: "Honorowy Patronat Marszałka Województwa Podlaskiego",
       logo: "/placeholder.svg",
     },
     {
-      name: "Research Institute",
-      logo: "/placeholder.svg",
-    },
-    {
-      name: "Psychology Association",
-      logo: "/placeholder.svg",
+      name: "Wojewoda Podlaski",
+      logo: "/logos/wojewoda.jpeg",
     },
   ];
 
   const mediaSponsors = [
     {
-      name: "Media Company",
-      logo: "/placeholder.svg",
+      name: "Polskie Radio Białystok",
+      logo: "/logos/radio-bialystok.jpg",
     },
   ];
 

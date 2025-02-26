@@ -54,9 +54,14 @@ const Home = () => {
               Cel konferencji
             </h2>
             <p className="text-gray-600 leading-relaxed">
-              Zapraszamy do udziału w prestiżowej konferencji naukowej
-              poświęconej najnowszym trendom i innowacjom w dziedzinie
-              psychologii i psychoterapii.
+                Konferencja ma na celu promowanie zdrowia psychicznego  dzieci, młodzieży i dorosłych oraz prezentację
+                najnowszych form leczenia. Jest to również okazja do wymiany wiedzy i rozwoju zawodowego specjalistów w
+                dziedzinie psychologii i psychoterapii.
+
+                Będzie to wyjątkowa szansa do wysłuchania wystąpień uznanych autorytetów z zakresu psychiatrii,
+                psychologii, psychoterapii i neurologii. W programie przewidziano także prezentacje studentów, co
+                umożliwi poznanie najbardziej obiecujących młodych badaczy oraz innowacyjnych pomysłów na terapię i
+                wsparcie osób w kryzysie psychicznym.
             </p>
           </div>
 
@@ -65,9 +70,11 @@ const Home = () => {
               Dla kogo?
             </h2>
             <p className="text-gray-600 leading-relaxed">
-              Zapraszamy do udziału w prestiżowej konferencji naukowej
-              poświęconej najnowszym trendom i innowacjom w dziedzinie
-              psychologii i psychoterapii.
+                Przedsięwzięcie skierowane jest do specjalistów z zakresu psychologii, psychiatrii, psychoterapii i
+                neurologii, a także do studentów kierunków związanych ze zdrowiem psychicznym oraz osób zainteresowanych
+                tematyką zdrowia psychicznego. Konferencja będzie również otwarta dla przedstawicieli organizacji
+                pozarządowych, instytucji wsparcia psychologicznego oraz wszystkich osób zaangażowanych w pomoc osobom w
+                kryzysie psychicznym.
             </p>
           </div>
 
@@ -76,9 +83,8 @@ const Home = () => {
               Co zyskam?
             </h2>
             <p className="text-gray-600 leading-relaxed">
-              Zapraszamy do udziału w prestiżowej konferencji naukowej
-              poświęconej najnowszym trendom i innowacjom w dziedzinie
-              psychologii i psychoterapii.
+                Każdy uczestnik otrzyma certyfikat uczestnictwa w konferencji oraz zestaw materiałów konferencyjnych
+                (torba materiałowa, notes, teczka na dokumenty, długopis, identyfikator ze smyczą).
             </p>
           </div>
 
@@ -87,9 +93,8 @@ const Home = () => {
               Zapisy
             </h2>
             <p className="text-gray-600 leading-relaxed">
-              Zapraszamy do udziału w prestiżowej konferencji naukowej
-              poświęconej najnowszym trendom i innowacjom w dziedzinie
-              psychologii i psychoterapii.
+                Aby zarejestrować się na konferencję, prosimy o skorzystanie z zakładki „Rejestracja”. Rejestracja jest
+                obowiązkowa dla wszystkich uczestników z uwagi na ograniczoną liczbę miejsc.
             </p>
           </div>
 
@@ -98,9 +103,9 @@ const Home = () => {
               Organizator
             </h2>
             <p className="text-gray-600 leading-relaxed">
-              Zapraszamy do udziału w prestiżowej konferencji naukowej
-              poświęconej najnowszym trendom i innowacjom w dziedzinie
-              psychologii i psychoterapii.
+              Konferencja organizowana jest przez Instytut Nauk Społecznych oraz Katedrę Psychologii Akademii Podlaskiej
+              w Białymstoku we współpracy ze Studenckim Kołem Naukowym Psychologii i Psychoterapii „Psychologiczne
+              Inspiracje”.
             </p>
           </div>
         </div>

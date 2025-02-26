@@ -1,14 +1,24 @@
 
-import { Calendar, Clock, Coffee, Presentation, Users, Video } from "lucide-react";
+import { ClipboardPen, MessageCircle, Coffee, University, GraduationCap, Award } from "lucide-react";
 
 const Program = () => {
   const schedule = [
-    { time: "09:00", speaker: "Dr Anna Kowalska", title: "Otwarcie Konferencji", type: "opening", icon: Calendar },
-    { time: "09:20", speaker: "Prof. Jan Nowak", title: "Współczesne Wyzwania w Psychoterapii", type: "presentation", icon: Presentation },
-    { time: "09:40", speaker: "Dr Maria Wiśniewska", title: "Innowacyjne Metody Terapeutyczne", type: "workshop", icon: Users },
-    { startTime: "10:00", endTime: "10:30", title: "Przerwa kawowa", type: "break", icon: Coffee },
-    { time: "10:30", speaker: "Prof. Adam Zalewski", title: "Psychologia w Erze Cyfrowej", type: "webinar", icon: Video },
-    { time: "10:50", speaker: "Dr Ewa Dąbrowska", title: "Nowe Podejścia w Terapii Poznawczej", type: "presentation", icon: Presentation },
+    { startTime: "13:00", endTime: "14:00", title: "Rejestracja uczestników", type: "break", icon: ClipboardPen },
+    { time: "14:00", title: "Otwarcie Konferencji", type: "speech", icon: University },
+    { time: "14:15", title: "Wystąpienia studentów", speaker: "  ze Studenckiego Koła Naukowego Psychologii i Psychoterapii \"Psychologiczne Inspiracje\"", type: "speech", icon: GraduationCap },
+    { startTime: "15:30", endTime: "15:45", title: "I przerwa kawowa", type: "break", icon: Coffee },
+    { time: "15:45", title: "Wręczenie przez Rektora wyróżnień za studenckie wystąpienia", type: "speech", icon: Award },
+    { time: "16:00", speaker: "prof. dr hab. n. med.  Napoleon Waszkiewicz", speakerDescription: "Członek Honorowy Komitetu Naukowego", title: "Czy mamy prawo leczyć psychodelikami?", type: "speech", icon: MessageCircle },
+    { time: "16:20", speaker: "dr hab. n med. Beata Galińska-Skok", speakerDescription: "Konsultant wojewódzki w dziedzinie, psychiatrii", title: "Rodzina wobec choroby psychicznej – jak rozumieć i wspierać", type: "speech", icon: MessageCircle },
+    { time: "16:40", speaker: "dr n. med. Anna Rogowska Zach", speakerDescription: "Konsultant wojewódzki psychoterapii dzieci i młodzieży", title: "Autystyczne obrony", type: "speech", icon: MessageCircle },
+    { time: "17:00", speaker: "mgr Renata Szymańska", speakerDescription: "Dyrektor WOPiTU w Łomży, konsultant wojewódzki uzależnień", title: "Focusing w terapii osób uzależnionych", type: "speech", icon: MessageCircle },
+    { startTime: "17:20", endTime: "17:40", title: "II przerwa kawowa", type: "break", icon: Coffee },
+    { time: "17:40", speaker: "dr hab. n. med. Agnieszka Kułak-Bejda", title: "Zaburzenia więzi a depresja w ciąży i po porodzie", type: "speech", icon: MessageCircle },
+    { time: "18:00", speaker: "dr n. med. Karolina Wilczyńska", title: "Chronoterapia w leczeniu zaburzeń afektywnych", type: "speech", icon: MessageCircle },
+    { time: "18:20", speaker: "dr. n. med. Przemysław Osip", speakerDescription: "dr Sylwia Szymkowiak (Poznań)", title: "Elektrostymulacja mózgu – przeszłość czy przyszłość psychiatrii?", type: "speech", icon: MessageCircle },
+    { time: "18:40", speaker: "dr Wiktor Orlof", speakerDescription: "dr n. med. Justyna Sołowiej", title: "Chemsex, cybersex – nowe trendy w seksuologii", type: "speech", icon: MessageCircle },
+    { time: "19:00", speaker: "mgr Justyna Śniadach", speakerDescription: "mgr Aleksandra Kicman", title: "Marihuana – czego diler ci nie powie?", type: "speech", icon: MessageCircle },
+    { startTime: "19:20", endTime: "19:40", title: "Zakończenie konferencji", type: "break", icon: University }
   ];
 
   return (
@@ -52,6 +62,7 @@ const Program = () => {
                       </div>
                       <div className="text-xl font-medium">{item.title}</div>
                       <div className="text-gray-600">{item.speaker}</div>
+                      <div className="text-gray-600">{item.speakerDescription}</div>
                     </div>
                   </div>
                 )}

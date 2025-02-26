@@ -1,5 +1,5 @@
 
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin, CircleUserRound } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -15,14 +15,14 @@ const Contact = () => {
               <Phone className="w-6 h-6 text-primary" />
               <div>
                 <p className="font-medium">Telefon</p>
-                <p className="text-gray-600">+48 123 456 789</p>
+                <p className="text-gray-600">85 742 01 99</p>
               </div>
             </div>
             <div className="flex items-center space-x-4">
               <Mail className="w-6 h-6 text-primary" />
               <div>
                 <p className="font-medium">Email</p>
-                <p className="text-gray-600">konferencja@example.com</p>
+                <p className="text-gray-600">apwb@apwb.pl</p>
               </div>
             </div>
             <div className="flex items-center space-x-4">
@@ -30,11 +30,11 @@ const Contact = () => {
               <div>
                 <p className="font-medium">Adres</p>
                 <p className="text-gray-600">
-                  Uniwersytet Example
+                  Akademia Podlaska w Białymstoku
                   <br />
-                  ul. Przykładowa 123
+                  Al. Jana Pawła II 91
                   <br />
-                  00-000 Warszawa
+                  15-703 Białystok
                 </p>
               </div>
             </div>
@@ -44,13 +44,19 @@ const Contact = () => {
           <h2 className="text-2xl font-semibold text-primary mb-6">
             Organizator konferencji
           </h2>
-          <div className="space-y-4">
-            <p className="font-medium">Dr hab. Jan Kowalski</p>
-            <div className="text-gray-600">
-              <p>Kierownik Katedry Psychologii</p>
-              <p>Uniwersytet Example</p>
-              <p>Tel: +48 123 456 789</p>
-              <p>Email: jan.kowalski@example.com</p>
+          <div className="space-y-6">
+            <div className="flex items-center space-x-4">
+              <CircleUserRound className="w-6 h-6 text-primary" />
+              <div>
+                <p className="font-medium">Justyna Śniadach</p>
+              </div>
+            </div>
+            <div className="flex items-center space-x-4">
+              <Mail className="w-6 h-6 text-primary" />
+              <div>
+                <p className="font-medium">Email</p>
+                <p className="text-gray-600">sniadach.justyna@gmail.com</p>
+              </div>
             </div>
           </div>
         </div>

@@ -26,7 +26,7 @@ const Navbar = () => {
               {/* Replace with actual logo */}
               <img
                 className="h-12 w-auto"
-                src="/placeholder.svg"
+                src="/logos/university.png"
                 alt="University Logo"
               />
             </div>
