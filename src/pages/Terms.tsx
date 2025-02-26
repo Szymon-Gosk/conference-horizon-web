@@ -1,4 +1,3 @@
-
 const Terms = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
@@ -10,7 +9,7 @@ const Terms = () => {
       </h2>
       <div className="bg-white rounded-lg shadow-sm p-8 space-y-6">
         <section>
-          <h2 className="text-2xl font-semibold text-primary mb-4">
+          <h2 className="text-2xl font-semibold text-primary mb-4 text-center">
             §1. Postanowienia ogólne
           </h2>
           <div className="space-y-2">
@@ -37,7 +36,7 @@ const Terms = () => {
         </section>
 
         <section>
-          <h2 className="text-2xl font-semibold text-primary mb-4">
+          <h2 className="text-2xl font-semibold text-primary mb-4 text-center">
             §2. Warunki uczestnictwa
           </h2>
           <div className="space-y-2">
@@ -63,7 +62,7 @@ const Terms = () => {
         </section>
 
         <section>
-          <h2 className="text-2xl font-semibold text-primary mb-4">
+          <h2 className="text-2xl font-semibold text-primary mb-4 text-center">
             §3. Rejestracja i opłaty
           </h2>
           <div className="space-y-2">
@@ -85,7 +84,7 @@ const Terms = () => {
         </section>
 
         <section>
-          <h2 className="text-2xl font-semibold text-primary mb-4">
+          <h2 className="text-2xl font-semibold text-primary mb-4 text-center">
             §4. Zasady dla prelegentów
           </h2>
           <div className="space-y-2">
@@ -106,7 +105,7 @@ const Terms = () => {
         </section>
 
         <section>
-          <h2 className="text-2xl font-semibold text-primary mb-4">
+          <h2 className="text-2xl font-semibold text-primary mb-4 text-center">
             §5. Zasady dotyczące uczestników
           </h2>
           <div className="space-y-2">
@@ -135,7 +134,7 @@ const Terms = () => {
         </section>
 
         <section>
-          <h2 className="text-2xl font-semibold text-primary mb-4">
+          <h2 className="text-2xl font-semibold text-primary mb-4 text-center">
             §6. Ochrona danych osobowych
           </h2>
           <div className="space-y-2">
@@ -155,7 +154,7 @@ const Terms = () => {
         </section>
 
         <section>
-          <h2 className="text-2xl font-semibold text-primary mb-4">
+          <h2 className="text-2xl font-semibold text-primary mb-4 text-center">
             §7. Postanowienia końcowe
           </h2>
           <div className="space-y-2">
