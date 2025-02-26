@@ -2,9 +2,12 @@
 const Terms = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-      <h1 className="text-4xl font-bold text-primary mb-8">
-        Regulamin konferencji
+      <h1 className="text-4xl font-bold text-primary mb-4">
+        Regulamin Konferencji Naukowej "Nowe Horyzonty w Psychologii i Psychoterapii: Innowacyjne Podejścia i Metody Leczenia"
       </h1>
+      <h2 className="text-xl text-gray-600 mb-8">
+        23 Maj 2025, Akademia Podlaska w Białymstoku
+      </h2>
       <div className="bg-white rounded-lg shadow-sm p-8 space-y-6">
         <section>
           <h2 className="text-2xl font-semibold text-primary mb-4">
