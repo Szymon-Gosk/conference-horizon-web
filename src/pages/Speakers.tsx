@@ -101,7 +101,7 @@ const Speakers = () => {
               <h2 className="text-2xl font-bold text-primary mb-2">
                 {speaker.name}
               </h2>
-              <h3 className="text-lg text-gray-600 mb-4">{speaker.title}</h3>
+              <h3 className="text-lg text-primary mb-4 italic">{speaker.title}</h3>
               {Array.isArray(speaker.description) ? (
                 <div className="space-y-3 text-gray-700">
                   {speaker.description.map((paragraph, i) => (
