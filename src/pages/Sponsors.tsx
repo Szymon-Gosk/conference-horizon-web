@@ -7,7 +7,7 @@ const Sponsors = () => {
     },
     {
       name: "Honorowy Patronat Marszałka Województwa Podlaskiego",
-      logo: "/placeholder.svg",
+      logo: "/logos/patronat-wojewodztwo.png",
     },
     {
       name: "Wojewoda Podlaski",

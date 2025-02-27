@@ -13,7 +13,7 @@ const Footer = () => {
             {/* Replace with actual logos */}
             <img src="/logos/radio-bialystok.jpg" alt="Polskie Radio Białystok" className="h-10 w-auto" />
             <img src="/logos/patronat-bialystok.png" alt="Honorowy Patronat Prezydenta Miasta Białegostoku" className="h-10 w-auto" />
-            <img src="/placeholder.svg" alt="Honorowy Patronat Marszałka Województwa Podlaskiego" className="h-10 w-auto" />
+            <img src="/logos/patronat-wojewodztwo.png" alt="Honorowy Patronat Marszałka Województwa Podlaskiego" className="h-10 w-auto" />
             <img src="/logos/wojewoda.jpeg" alt="Wojewoda Podlaski" className="h-10 w-auto" />
           </div>
         </div>
