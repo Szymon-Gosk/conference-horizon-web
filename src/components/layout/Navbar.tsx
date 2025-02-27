@@ -9,11 +9,12 @@ const Navbar = () => {
 
   const navItems = [
     { name: "Strona Główna", path: "/" },
-    { name: "Program Konferencji", path: "/program" },
+    { name: "Program", path: "/program" },
     { name: "Prelegenci", path: "/prelegenci" },
     { name: "Komitet Naukowy", path: "/komitet" },
     { name: "Patronaty", path: "/patronaty" },
-    { name: "Regulamin konferencji", path: "/regulamin" },
+    { name: "Sponsorzy", path: "/sponsorzy" },
+    { name: "Regulamin", path: "/regulamin" },
     { name: "Kontakt", path: "/kontakt" },
   ];
 
