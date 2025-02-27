@@ -2,10 +2,14 @@
 const Speakers = () => {
   const speakers = [
     {
-      name: "Prof. Jan Nowak",
-      title: "Profesor Psychologii Klinicznej",
-      description:
-        "Ekspert w dziedzinie psychologii klinicznej z 20-letnim doświadczeniem. Autor wielu publikacji naukowych i książek z zakresu psychoterapii.",
+      name: "Prof. dr hab. n. med. Napoleon Waszkiewicz",
+      title: "Kierownik Kliniki Psychiatrii Uniwersytetu Medycznego w Białymstoku",
+      description: [
+        "Prof. dr hab. n. med. Napoleon Waszkiewicz jest wybitnym specjalistą w dziedzinie psychiatrii, pełniącym funkcję kierownika Kliniki Psychiatrii Uniwersytetu Medycznego w Białymstoku. Jest również prezesem Oddziału Podlaskiego Polskiego Towarzystwa Psychiatrycznego.",
+        "• Ceniony w Polsce i za granicą ekspert w zakresie nowoczesnych metod leczenia zaburzeń psychicznych.",
+        "• Od wielu lat prowadzi badania naukowe nad wykorzystaniem psychodelików i innych niekonwencjonalnych środków w psychiatrii, koncentrując się na etycznym, klinicznym i społecznym wymiarze tych terapii.",
+        "• Autor i współautor licznych publikacji w renomowanych czasopismach medycznych. Jego prace dotyczą m.in. psychofarmakologii, podłoża neurobiologicznego zaburzeń oraz badań klinicznych nad innowacyjnymi metodami leczenia."
+      ],
       image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&q=80",
     },
     {
@@ -98,7 +102,15 @@ const Speakers = () => {
                 {speaker.name}
               </h2>
               <h3 className="text-lg text-gray-600 mb-4">{speaker.title}</h3>
-              <p className="text-gray-700">{speaker.description}</p>
+              {Array.isArray(speaker.description) ? (
+                <div className="space-y-3 text-gray-700">
+                  {speaker.description.map((paragraph, i) => (
+                    <p key={i}>{paragraph}</p>
+                  ))}
+                </div>
+              ) : (
+                <p className="text-gray-700">{speaker.description}</p>
+              )}
             </div>
           </div>
         ))}
