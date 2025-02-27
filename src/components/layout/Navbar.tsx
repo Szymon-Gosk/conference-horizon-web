@@ -48,7 +48,7 @@ const Navbar = () => {
           </div>
           <div className="flex items-center">
             <a
-              href="https://external-registration-link.com"
+              href="https://docs.google.com/forms/d/1PMJ23ZdFKyMurQVGjYjmHZJ3jbpS7oFvxzGd_4RPfNM"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-primary hover:bg-primary-hover text-white px-6 py-2 rounded-md text-sm font-medium transition-colors"
