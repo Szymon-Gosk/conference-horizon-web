@@ -20,6 +20,10 @@ const Patrons = () => {
       name: "Polskie Radio Białystok",
       logo: "/logos/radio-bialystok.jpg",
     },
+    {
+      name: "Białystok Online",
+      logo: "/logos/bialystok-online.png",
+    },
   ];
 
   return (
@@ -29,7 +33,7 @@ const Patrons = () => {
       {/* Honorary Patrons */}
       <div className="bg-white rounded-lg shadow-sm p-8 mb-8">
         <h2 className="text-2xl font-semibold text-center mb-8">
-          Patronat honorowy objęli
+          Patronaty honorowe objęli
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {honorarySponsors.map((sponsor, index) => (
@@ -51,7 +55,7 @@ const Patrons = () => {
       {/* Media Patrons */}
       <div className="bg-white rounded-lg shadow-sm p-8">
         <h2 className="text-2xl font-semibold text-center mb-8">
-          Patronat medialny objęli
+          Patronaty medialne objęli
         </h2>
         <div className="flex justify-center">
           {mediaSponsors.map((sponsor, index) => (

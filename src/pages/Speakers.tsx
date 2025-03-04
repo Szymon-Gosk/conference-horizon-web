@@ -4,6 +4,7 @@ const Speakers = () => {
     {
       name: "Prof. dr hab. n. med. Napoleon Waszkiewicz",
       title: "Kierownik Kliniki Psychiatrii Uniwersytetu Medycznego w Białymstoku",
+      secondTitle: "Dziedzina: Psychiatria",
       description: [
         "Prof. dr hab. n. med. Napoleon Waszkiewicz jest wybitnym specjalistą w dziedzinie psychiatrii, pełniącym funkcję kierownika Kliniki Psychiatrii Uniwersytetu Medycznego w Białymstoku. Jest również prezesem Oddziału Podlaskiego Polskiego Towarzystwa Psychiatrycznego.",
         "• Ceniony w Polsce i za granicą ekspert w zakresie nowoczesnych metod leczenia zaburzeń psychicznych.",
@@ -46,18 +47,7 @@ const Speakers = () => {
       image: "/speakers/RENATA.jpg",
     },
     {
-      name: "dr n. med. Karolina Wilczyńska",
-      title: "Dziedzina: Psychiatria",
-      description: [
-        "• Lekarz specjalista psychiatrii, praktykująca w lecznictwie ambulatoryjnym i szpitalnym.",
-        "• Autorka i współautorka licznych publikacji na temat różnych obszarów zdrowia psychicznego.",
-        "• Uzyskała stopień naukowy doktora na podstawie badań dotyczących biomarkerow otępienia",
-        "• Jako wykładowczyni i mentorka wspiera studentów psychologii w zdobywaniu wiedzy na temat zaawansowanych metod leczenia zaburzeń nastroju i pracy z pacjentem w kryzysie."
-      ],
-      image: "/speakers/KAROLINA.jpg",
-    },
-    {
-      name: "dr n. med. Agnieszka Kułak-Bejda",
+      name: "dr hab. n. med. Agnieszka Kułak-Bejda",
       title: "Dziedzina: Psychiatria, Psychotraumatologia",
       description: [
         "• Specjalistka w dziedzinie psychiatrii oraz psychotraumatologii.",
@@ -96,7 +86,7 @@ const Speakers = () => {
       name: "dr Wiktor Orlof",
       title: "Dziedzina: Psychiatria, Psychoterapia",
       description: [
-        "• Psychiatra i psychoterapeuta psychodynamiczny.. Pracownik naukowy Uniwersytetu Medycznego w Białymstoku (UMB), łączący praktykę kliniczną z pracą badawczą.",
+        "• Psychiatra i psychoterapeuta psychodynamiczny. Pracownik naukowy Uniwersytetu Medycznego w Białymstoku (UMB), łączący praktykę kliniczną z pracą badawczą.",
         "• Posiada bogate doświadczenie w prowadzenie warsztatów m.in. z obszaru seksuologii i wpływu nowych technologii na psychikę i relacje międzyludzkie.",
         "• Jego publikacje naukowe koncentrują się na zagadnieniach mutyzmu wybiórczego oraz dysocjacyjnego zaburzenia tożsamości (osobowość mnoga) oraz sposobach przeciwdziałania im w terapii.",
         "• Prowadzi wykłady dla studentów medycyny, propagując nowatorskie podejścia do leczenia pacjentów z zaburzeniami seksualnymi i psychicznymi.",
@@ -119,7 +109,7 @@ const Speakers = () => {
       name: "mgr Justyna Śniadach",
       title: "Dziedzina: Psychologia, Psychoterapia, Terapia uzależnień",
       description: [
-        "• Psycholog, psychoterapeutka poznawczo-behawioralna (CBT), certyfikowana specjalistka psychoterapii uzależnień.",
+        "• Psycholog, psychoterapeutka poznawczo-behawioralna, certyfikowana specjalistka psychoterapii uzależnień.",
         "• Biegła sądowa w dziedzinie psychologii oraz w przedmiocie uzależnienia.",
         "• Posiada wieloletnie doświadczenie zawodowe w pracy z dziećmi, młodzieżą oraz dorosłymi.",
         "• Obecnie realizuje doktorat z zakresu uzależnienia od klasycznych papierosów, e-papierosów oraz podgrzewanych wyrobów tytoniowych (HTP).",
@@ -162,6 +152,7 @@ const Speakers = () => {
                 {speaker.name}
               </h2>
               <h3 className="text-lg text-primary mb-4 italic">{speaker.title}</h3>
+              <h3 className="text-lg text-primary mb-4 italic">{speaker.secondTitle}</h3>
               {Array.isArray(speaker.description) ? (
                 <div className="space-y-3 text-gray-700">
                   {speaker.description.map((paragraph, i) => (

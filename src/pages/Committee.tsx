@@ -63,6 +63,10 @@ const Committee = () => {
       title: "Starosta II roku na kierunku psychologia",
     },
     {
+      name: "Kinga Wajsiel",
+      title: "Członek Studenckiego Koła Naukowego\"Psychologiczne Inspiracje\"",
+    },
+    {
       name: "Joanna Sobolewska",
       title: "Kierownik Rektoratu",
     },

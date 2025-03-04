@@ -11,7 +11,7 @@ const Sponsors = () => {
     },
     {
       name: "Barbara Okuła, posłanka na Sejm RP",
-      logo: "/sponsors/female.png",
+      logo: "/sponsors/female.jpg",
     },
     {
       name: "Urząd Miejski w Białymstoku",
