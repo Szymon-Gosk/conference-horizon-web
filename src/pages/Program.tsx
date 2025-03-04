@@ -1,5 +1,6 @@
 
-import { ClipboardPen, MessageCircle, Coffee, University, GraduationCap, Award } from "lucide-react";
+import { ClipboardPen, MessageCircle, Coffee, University, GraduationCap, Award, Download } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const Program = () => {
   const schedule = [
@@ -20,6 +21,21 @@ const Program = () => {
     { startTime: "19:30", endTime: "19:40", title: "Zakończenie konferencji", type: "break", icon: University }
   ];
 
+  const handleDownloadPDF = () => {
+    // Create a link element
+    const link = document.createElement('a');
+    // Set the href to the path of the PDF file
+    link.href = '/program.pdf';
+    // Set the download attribute to suggest a filename
+    link.download = 'program-konferencji.pdf';
+    // Append the link to the body
+    document.body.appendChild(link);
+    // Trigger the download
+    link.click();
+    // Clean up - remove the link
+    document.body.removeChild(link);
+  };
+
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
       <div className="relative">
@@ -31,7 +47,16 @@ const Program = () => {
           }}
         />
         <div className="relative">
-          <h1 className="text-4xl font-bold text-primary mb-8">Program Konferencji</h1>
+          <div className="flex justify-between items-center mb-8">
+            <Button 
+              onClick={handleDownloadPDF} 
+              className="flex items-center gap-2 bg-primary hover:bg-primary-hover text-white"
+            >
+              <Download className="w-4 h-4" />
+              Pobierz Program PDF
+            </Button>
+            <h1 className="text-4xl font-bold text-primary">Program Konferencji</h1>
+          </div>
           <div className="space-y-6">
             {schedule.map((item, index) => (
               <div
