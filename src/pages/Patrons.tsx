@@ -46,12 +46,14 @@ const Patrons = () => {
               key={index}
               className="flex flex-col items-center justify-center p-4"
             >
-              <img
-                src={sponsor.logo}
-                alt={sponsor.name}
-                className={`w-auto ${sponsor.size} mb-4 object-contain`}
-              />
-              <p className="text-center text-gray-600">{sponsor.name}</p>
+              <div className="flex items-center justify-center h-32">
+                <img
+                  src={sponsor.logo}
+                  alt={sponsor.name}
+                  className={`w-auto ${sponsor.size} object-contain`}
+                />
+              </div>
+              <p className="text-center text-gray-600 mt-4">{sponsor.name}</p>
             </div>
           ))}
         </div>
@@ -68,12 +70,14 @@ const Patrons = () => {
               key={index}
               className="flex flex-col items-center justify-center p-4"
             >
-              <img
-                src={sponsor.logo}
-                alt={sponsor.name}
-                className={`w-auto ${sponsor.size} mb-4 object-contain`}
-              />
-              <p className="text-center text-gray-600">{sponsor.name}</p>
+              <div className="flex items-center justify-center h-32">
+                <img
+                  src={sponsor.logo}
+                  alt={sponsor.name}
+                  className={`w-auto ${sponsor.size} object-contain`}
+                />
+              </div>
+              <p className="text-center text-gray-600 mt-4">{sponsor.name}</p>
             </div>
           ))}
         </div>
