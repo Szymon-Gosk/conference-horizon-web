@@ -4,14 +4,17 @@ const Patrons = () => {
     {
       name: "Honorowy Patronat Prezydenta Miasta Białegostoku",
       logo: "/logos/patronat-bialystok.png",
+      size: "h-20" // larger size
     },
     {
       name: "Honorowy Patronat Marszałka Województwa Podlaskiego",
       logo: "/logos/patronat-wojewodztwo.png",
+      size: "h-18" // medium size
     },
     {
       name: "Wojewoda Podlaski",
       logo: "/logos/wojewoda.jpeg",
+      size: "h-16" // smaller size, was too big before
     },
   ];
 
@@ -19,10 +22,12 @@ const Patrons = () => {
     {
       name: "Polskie Radio Białystok",
       logo: "/logos/radio-bialystok.jpg",
+      size: "h-20" // keeping original good size
     },
     {
       name: "Białystok Online",
       logo: "/logos/bialystok-online.png",
+      size: "h-22" // slightly larger
     },
   ];
 
@@ -44,7 +49,7 @@ const Patrons = () => {
               <img
                 src={sponsor.logo}
                 alt={sponsor.name}
-                className="h-24 w-auto mb-4"
+                className={`w-auto ${sponsor.size} mb-4 object-contain`}
               />
               <p className="text-center text-gray-600">{sponsor.name}</p>
             </div>
@@ -66,7 +71,7 @@ const Patrons = () => {
               <img
                 src={sponsor.logo}
                 alt={sponsor.name}
-                className="h-24 w-auto mb-4"
+                className={`w-auto ${sponsor.size} mb-4 object-contain`}
               />
               <p className="text-center text-gray-600">{sponsor.name}</p>
             </div>

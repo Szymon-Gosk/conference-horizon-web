@@ -1,3 +1,4 @@
+
 import {Calendar, MapPin, CreditCard} from "lucide-react";
 
 const Home = () => {
@@ -12,6 +13,9 @@ const Home = () => {
       >
         <div className="absolute inset-0 bg-primary/60 backdrop-blur-sm"/>
         <div className="relative z-10 text-center text-white px-4">
+          <p className="text-xl md:text-2xl lg:text-3xl font-medium mb-3">
+            Konferencja Naukowa
+          </p>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold max-w-4xl mx-auto leading-tight mb-4">
             Nowe Horyzonty w Psychologii i Psychoterapii
           </h1>
