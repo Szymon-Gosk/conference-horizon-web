@@ -28,7 +28,7 @@ const App = () => (
             <Route index element={<Home />} />
             <Route path="program" element={<Program />} />
             <Route path="prelegenci" element={<Speakers />} />
-            <Route path="komitet" element={<Committee />} />
+            <Route path="komitety" element={<Committee />} />
             <Route path="patronaty" element={<Patrons />} />
             <Route path="sponsorzy" element={<Sponsors />} />
             <Route path="regulamin" element={<Terms />} />

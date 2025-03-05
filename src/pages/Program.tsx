@@ -17,7 +17,7 @@ const Program = () => {
     { time: "18:15", speaker: "dr. n. med. Przemysław Osip (Poznań)", speakerDescription: "dr Sylwia Szymkowiak (Poznań)", title: "Elektrostymulacja mózgu – przeszłość czy przyszłość psychiatrii?", type: "speech", icon: MessageCircle },
     { time: "18:40", speaker: "dr n. med. Justyna Sołowiej", speakerDescription: "dr Wiktor Orlof", title: "Chemsex, cybersex – nowe trendy w seksuologii", type: "speech", icon: MessageCircle },
     { time: "19:05", speaker: "mgr Justyna Śniadach", speakerDescription: "mgr Aleksandra Kicman", title: "Marihuana – czego diler ci nie powie?", type: "speech", icon: MessageCircle },
-    { startTime: "19:30", endTime: "19:40", title: "Zakończenie konferencji", type: "break", icon: University }
+    { time: "19:30", title: "Zakończenie konferencji", type: "speech", icon: University }
   ];
 
   const handleDownloadPDF = () => {

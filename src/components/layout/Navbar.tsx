@@ -11,7 +11,7 @@ const Navbar = () => {
     { name: "Strona Główna", path: "/" },
     { name: "Program", path: "/program" },
     { name: "Prelegenci", path: "/prelegenci" },
-    { name: "Komitet", path: "/komitet" },
+    { name: "Komitety", path: "/komitety" },
     { name: "Patronaty", path: "/patronaty" },
     { name: "Sponsorzy", path: "/sponsorzy" },
     { name: "Regulamin", path: "/regulamin" },

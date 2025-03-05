@@ -29,7 +29,7 @@ const Home = () => {
             <Calendar className="w-10 h-10 text-primary mb-4"/>
             <h3 className="text-xl font-semibold mb-2">Data Konferencji</h3>
             <p className="text-gray-600">23 maja 2025 (piątek)</p>
-            <p className="text-gray-600 mt-2">godz. 13:30-19:40</p>
+            <p className="text-gray-600 mt-2">godz. 13:30-19:30</p>
           </div>
           <div className="bg-white rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow">
             <MapPin className="w-10 h-10 text-primary mb-4"/>
