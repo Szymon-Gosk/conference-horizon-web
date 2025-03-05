@@ -40,11 +40,11 @@ const Patrons = () => {
         <h2 className="text-2xl font-semibold text-center mb-8">
           Patronaty honorowe objęli
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="flex justify-around items-center">
           {honorarySponsors.map((sponsor, index) => (
             <div
               key={index}
-              className="flex flex-col items-center justify-center p-4"
+              className="flex flex-col items-center justify-center p-4 w-1/3"
             >
               <div className="flex items-center justify-center h-32">
                 <img
@@ -65,11 +65,11 @@ const Patrons = () => {
         <h2 className="text-2xl font-semibold text-center mb-8">
           Patronaty medialne objęli
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="flex justify-around items-center">
           {mediaSponsors.map((sponsor, index) => (
             <div
               key={index}
-              className="flex flex-col items-center justify-center p-4"
+              className="flex flex-col items-center justify-center p-4 w-1/3"
             >
               <div className="flex items-center justify-center h-32">
                 <img
