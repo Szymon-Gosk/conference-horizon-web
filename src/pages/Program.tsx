@@ -1,4 +1,3 @@
-
 import { ClipboardPen, MessageCircle, Coffee, University, GraduationCap, Award, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -9,13 +8,11 @@ const Program = () => {
     { time: "14:15", title: "Wystąpienia studentów", speaker: "  ze Studenckiego Koła Naukowego Psychologii i Psychoterapii \"Psychologiczne Inspiracje\"", type: "speech", icon: GraduationCap },
     { time: "15:15", title: "Wręczenie przez Rektora wyróżnień za studenckie wystąpienia", type: "speech", icon: Award },
     { startTime: "15:30", endTime: "15:50", title: "I przerwa kawowa", type: "break", icon: Coffee },
-    // Section header will be added in the render part
     { time: "15:50 - Sesja otwarcia", speaker: "prof. dr hab. n. med.  Napoleon Waszkiewicz", speakerDescription: "Członek Honorowy Komitetu Naukowego", title: "Czy mamy prawo leczyć psychodelikami?", type: "speech", icon: MessageCircle },
     { time: "16:15", speaker: "dr hab. n med. Beata Galińska-Skok", speakerDescription: "Konsultant wojewódzki w dziedzinie psychiatrii", title: "Rodzina wobec choroby psychicznej – jak rozumieć i wspierać", type: "speech", icon: MessageCircle },
     { time: "16:40", speaker: "dr n. med. Anna Rogowska Zach", speakerDescription: "Konsultant wojewódzki w dziedzinie psychoterapii dzieci i młodzieży", title: "Autystyczne obrony", type: "speech", icon: MessageCircle },
     { time: "17:05", speaker: "mgr Renata Szymańska", speakerDescription: "Dyrektor WOPiTU w Łomży, konsultant wojewódzki w dziedzinie uzależnień", title: "Focusing w terapii osób uzależnionych", type: "speech", icon: MessageCircle },
     { startTime: "17:30", endTime: "17:50", title: "II przerwa kawowa", type: "break", icon: Coffee },
-    // Section header will be added in the render part
     { time: "17:50", speaker: "dr hab. n. med. Agnieszka Kułak-Bejda", title: "Zaburzenia więzi a depresja w ciąży i po porodzie", type: "speech", icon: MessageCircle },
     { time: "18:15", speaker: "dr. n. med. Przemysław Osip (Poznań)", speakerDescription: "dr Sylwia Szymkowiak (Poznań)", title: "Elektrostymulacja mózgu – przeszłość czy przyszłość psychiatrii?", type: "speech", icon: MessageCircle },
     { time: "18:40", speaker: "dr n. med. Justyna Sołowiej", speakerDescription: "dr Wiktor Orlof", title: "Chemsex, cybersex – nowe trendy w seksuologii", type: "speech", icon: MessageCircle },
@@ -24,17 +21,11 @@ const Program = () => {
   ];
 
   const handleDownloadPDF = () => {
-    // Create a link element
     const link = document.createElement('a');
-    // Set the href to the path of the PDF file
     link.href = 'pdf/Plan konferencji.pdf';
-    // Set the download attribute to suggest a filename
     link.download = 'Plan konferencji.pdf';
-    // Append the link to the body
     document.body.appendChild(link);
-    // Trigger the download
     link.click();
-    // Clean up - remove the link
     document.body.removeChild(link);
   };
 
@@ -43,7 +34,6 @@ const Program = () => {
     
     for (let i = 0; i < schedule.length; i++) {
       if (i === 5) {
-        // Add first section header before session opening
         items.push(
           <h2 key="section1" className="text-2xl font-semibold text-primary mt-10 mb-6">
             Wystąpienia specjalistów panel I
@@ -52,7 +42,6 @@ const Program = () => {
       }
       
       if (i === 10) {
-        // Add second section header before the second panel
         items.push(
           <h2 key="section2" className="text-2xl font-semibold text-primary mt-10 mb-6">
             Wystąpienia specjalistów panel II
@@ -106,8 +95,7 @@ const Program = () => {
         <div
           className="absolute inset-0 bg-cover bg-center opacity-10 blur-sm"
           style={{
-            backgroundImage:
-              'url("https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&q=80")',
+            backgroundImage: 'url("/images/backgrounds/schedule.webp")',
           }}
         />
         <div className="relative">

@@ -1,4 +1,3 @@
-
 import {Calendar, MapPin, CreditCard} from "lucide-react";
 
 const Home = () => {
@@ -7,8 +6,7 @@ const Home = () => {
       <div
         className="relative h-[60vh] bg-cover bg-center flex items-center justify-center"
         style={{
-          backgroundImage:
-            'url("https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80")',
+          backgroundImage: 'url("/images/backgrounds/conference.webp")',
         }}
       >
         <div className="absolute inset-0 bg-primary/60 backdrop-blur-sm"/>

@@ -51,6 +51,7 @@ const Patrons = () => {
                   src={sponsor.logo}
                   alt={sponsor.name}
                   className={`w-auto ${sponsor.size} object-contain`}
+                  loading="lazy"
                 />
               </div>
               <p className="text-center text-gray-600 mt-4">{sponsor.name}</p>
@@ -75,6 +76,7 @@ const Patrons = () => {
                   src={sponsor.logo}
                   alt={sponsor.name}
                   className={`w-auto ${sponsor.size} object-contain`}
+                  loading="lazy"
                 />
               </div>
               <p className="text-center text-gray-600 mt-4">{sponsor.name}</p>

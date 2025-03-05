@@ -44,6 +44,7 @@ const Sponsors = () => {
                 src={sponsor.logo}
                 alt={sponsor.name}
                 className="h-24 w-auto mb-4"
+                loading="lazy"
               />
               <p className="text-center text-gray-600">{sponsor.name}</p>
             </div>

@@ -29,12 +29,14 @@ const Navbar = () => {
                 className="h-12 w-auto"
                 src="/logos/university.png"
                 alt="University Logo"
+                loading="lazy"
               />
               {/* Second logo */}
               <img
                 className="h-12 w-auto"
                 src="/logos/group.png"
                 alt="Group Logo"
+                loading="lazy"
               />
             </div>
             <div className="hidden lg:ml-6 lg:flex lg:space-x-6 items-center">
