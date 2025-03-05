@@ -4,17 +4,17 @@ const Patrons = () => {
     {
       name: "Honorowy Patronat Prezydenta Miasta Białegostoku",
       logo: "/logos/patronat-bialystok.png",
-      size: "h-20" // larger size
+      size: "h-36"
     },
     {
       name: "Honorowy Patronat Marszałka Województwa Podlaskiego",
       logo: "/logos/patronat-wojewodztwo.png",
-      size: "h-18" // medium size
+      size: "h-36"
     },
     {
       name: "Wojewoda Podlaski",
       logo: "/logos/wojewoda.jpeg",
-      size: "h-16" // smaller size, was too big before
+      size: "h-36"
     },
   ];
 
@@ -22,12 +22,12 @@ const Patrons = () => {
     {
       name: "Polskie Radio Białystok",
       logo: "/logos/radio-bialystok.jpg",
-      size: "h-20" // keeping original good size
+      size: "h-20"
     },
     {
       name: "Białystok Online",
       logo: "/logos/bialystok-online.png",
-      size: "h-22" // slightly larger
+      size: "h-10"
     },
   ];
 

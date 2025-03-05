@@ -8,7 +8,7 @@ const Program = () => {
     { time: "14:00", title: "Otwarcie Konferencji", type: "speech", icon: University },
     { time: "14:15", title: "Wystąpienia studentów", speaker: "  ze Studenckiego Koła Naukowego Psychologii i Psychoterapii \"Psychologiczne Inspiracje\"", type: "speech", icon: GraduationCap },
     { time: "15:15", title: "Wręczenie przez Rektora wyróżnień za studenckie wystąpienia", type: "speech", icon: Award },
-    { startTime: "15:30", endTime: "15:45", title: "I przerwa kawowa", type: "break", icon: Coffee },
+    { startTime: "15:30", endTime: "15:50", title: "I przerwa kawowa", type: "break", icon: Coffee },
     // Section header will be added in the render part
     { time: "15:50 - Sesja otwarcia", speaker: "prof. dr hab. n. med.  Napoleon Waszkiewicz", speakerDescription: "Członek Honorowy Komitetu Naukowego", title: "Czy mamy prawo leczyć psychodelikami?", type: "speech", icon: MessageCircle },
     { time: "16:15", speaker: "dr hab. n med. Beata Galińska-Skok", speakerDescription: "Konsultant wojewódzki w dziedzinie psychiatrii", title: "Rodzina wobec choroby psychicznej – jak rozumieć i wspierać", type: "speech", icon: MessageCircle },
@@ -27,9 +27,9 @@ const Program = () => {
     // Create a link element
     const link = document.createElement('a');
     // Set the href to the path of the PDF file
-    link.href = '/program.pdf';
+    link.href = 'pdf/Plan konferencji.pdf';
     // Set the download attribute to suggest a filename
-    link.download = 'program-konferencji.pdf';
+    link.download = 'Plan konferencji.pdf';
     // Append the link to the body
     document.body.appendChild(link);
     // Trigger the download
