@@ -52,22 +52,23 @@ const Sponsors = () => {
         </div>
         
         {/* Second row of sponsors, centered */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
-          <div className="md:col-span-1"></div>
-          {sponsors.slice(3, 5).map((sponsor, index) => (
-            <div
-              key={index + 3}
-              className="flex flex-col items-center justify-center p-4"
-            >
-              <img
-                src={sponsor.logo}
-                alt={sponsor.name}
-                className="h-24 w-auto mb-4"
-                loading="lazy"
-              />
-              <p className="text-center text-gray-600">{sponsor.name}</p>
-            </div>
-          ))}
+        <div className="flex justify-center mt-8">
+          <div className="grid grid-cols-2 gap-8 max-w-[66%]">
+            {sponsors.slice(3, 5).map((sponsor, index) => (
+              <div
+                key={index + 3}
+                className="flex flex-col items-center justify-center p-4"
+              >
+                <img
+                  src={sponsor.logo}
+                  alt={sponsor.name}
+                  className="h-24 w-auto mb-4"
+                  loading="lazy"
+                />
+                <p className="text-center text-gray-600">{sponsor.name}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>
