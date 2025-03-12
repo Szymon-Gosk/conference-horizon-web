@@ -65,23 +65,25 @@ const Patrons = () => {
         <h2 className="text-2xl font-semibold text-center mb-8">
           Patronaty medialne objęli
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-1">
-          {mediaSponsors.map((sponsor, index) => (
-            <div
-              key={index}
-              className="flex flex-col items-center justify-center p-4"
-            >
-              <div className="flex items-center justify-center h-32">
-                <img
-                  src={sponsor.logo}
-                  alt={sponsor.name}
-                  className={`w-auto ${sponsor.size} object-contain`}
-                  loading="lazy"
-                />
+        <div className="flex justify-center">
+          <div className="grid grid-cols-2 gap-8 w-full max-w-2xl">
+            {mediaSponsors.map((sponsor, index) => (
+              <div
+                key={index}
+                className="flex flex-col items-center justify-center p-4"
+              >
+                <div className="flex items-center justify-center h-32">
+                  <img
+                    src={sponsor.logo}
+                    alt={sponsor.name}
+                    className={`w-auto ${sponsor.size} object-contain`}
+                    loading="lazy"
+                  />
+                </div>
+                <p className="text-center text-gray-600 mt-4">{sponsor.name}</p>
               </div>
-              <p className="text-center text-gray-600 mt-4">{sponsor.name}</p>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </div>
