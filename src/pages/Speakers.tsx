@@ -18,9 +18,9 @@ const Speakers = () => {
       title: "Dziedzina: Psychiatria",
       description: [
         "• Lekarz, specjalista psychiatra, pełniąca funkcję wojewódzkiego konsultanta w dziedzinie psychiatrii. W swojej pracy koncentruje się na diagnostyce i leczeniu zaburzeń psychicznych, w tym schizofrenii.",
-        "• Bogate doświadczenie kliniczne łączy z działalnością dydaktyczną i naukową – jest autorką licznych publikacji naukowych oraz wystąpień konferencyjnych poświęconych badaniom neuroobrazowym w schizofrenii i chorobie dwubiegunowej, biomarkerom zaburzeń psychicznych.",
+        "• Bogate doświadczenie kliniczne łączy z działalnością dydaktyczną i naukową – jest autorką licznych publikacji naukowych oraz wystąpień konferencyjnych poświęconych badaniom neuroobrazowym w schizofrenii i chorobie dwubiegunowej, oraz biomarkerom zaburzeń psychicznych.",
         "• Zastępca kierownika Kliniki Psychiatrii w Uniwersyteckim Szpitalu Klinicznym, współpracuje z różnymi ośrodkami akademickimi, promując wielostronne spojrzenie na pacjenta z zaburzeniami psychicznymi – od aspektów biomedycznych po psychospołeczne.",
-        "• Wielokrotnie nagradzana przez Rektora Uniwersytetu Medycznego w Białymstoku zadziałalność naukową i dydaktyczną."
+        "• Wielokrotnie nagradzana przez Rektora Uniwersytetu Medycznego w Białymstoku za działalność naukową i dydaktyczną."
       ],
       image: "/speakers/BEATA.jpg",
     },
@@ -31,7 +31,7 @@ const Speakers = () => {
         "• Psycholog, specjalista psychoterapii dzieci i młodzieży oraz psychoterapeutka psychoanalityczna. Pełni funkcję wojewódzkiego konsultanta w dziedzinie psychoterapii dzieci i młodzieży.",
         "• Ukończyła 4 – letnie szkolenie Psychoterapii Psychoanalitycznej w Ośrodku Edukacji Psychoanalitycznej w Warszawie afiliowane przez Polskie Towarzystwo Psychoterapii Psychoanalitycznej i spełniające standardy European Federation for Psychoanalytic Psychotherapy.",
         "• Jej praca naukowa i praktyka kliniczna obejmują przede wszystkim diagnozę oraz terapię zaburzeń ze spektrum autyzmu, zaburzeń lękowych i problemów emocjonalnych w okresie rozwoju.",
-        "• Zaangażowana w projekty edukacyjne i badawcze, które dotyczą wczesnego wykrywania symptomów autystycznych oraz opracowywania wieloaspektowych form wsparcia dla dzieci i ich rodzin., kładąc nacisk na pracę systemową z rodziną i środowiskiem szkolnym."
+        "• Zaangażowana w projekty edukacyjne i badawcze, które dotyczą wczesnego wykrywania symptomów autystycznych oraz opracowywania wieloaspektowych form wsparcia dla dzieci i ich rodzin, kładących nacisk na pracę systemową z rodziną i środowiskiem szkolnym."
       ],
       image: "/speakers/ANNA.png",
     },
@@ -54,7 +54,8 @@ const Speakers = () => {
         "• Jest ekspertem w zagadnieniach związanych z zaburzeniami psychicznymi występującymi u kobiet w ciąży i w okresie poporodowym, szczególnie w kontekście depresji oraz traumy poporodowej.",
         "• Prowadzi badania nad wpływem czynników psychologicznych i społeczno-kulturowych na zdrowie psychiczne kobiet, podkreślając znaczenie wsparcia rodziny i otoczenia medycznego.",
         "• Autorka licznych artykułów naukowych publikowanych w czasopismach medycznych oraz rozdziałów w monografiach dotyczących opieki psychiatrycznej w okresie okołoporodowym.",
-        "• Organizuje szkolenia z zakresu rozpoznawania wczesnych objawów zaburzeń nastroju u kobiet w ciąży i po porodzie, kierowane do lekarzy, położnych i psychologów."
+        "• Organizuje szkolenia z zakresu rozpoznawania wczesnych objawów zaburzeń nastroju u kobiet w ciąży i po porodzie, kierowane do lekarzy, położnych i psychologów.",
+        "• Autorka licznych artykułów naukowych publikowanych w czasopismach medycznych, monografii oraz rozdziałów w monografiach."
       ],
       image: "/speakers/AGA.jpg",
     },
@@ -65,7 +66,7 @@ const Speakers = () => {
         "• Specjalista w dziedzinie neurologii, ordynator Oddziału Neurologicznego i Udarowego w Szpitalu HCP w Poznaniu.",
         "• Ekspert w dziedzinie chorób neurodegeneracyjnych oraz psychiatrycznych aspektach tych schorzeń.",
         "• W swoich badaniach koncentruje się na wczesnej diagnostyce oraz poszukiwaniu innowacyjnych metod leczenia i rehabilitacji pacjentów zmagających się m.in. z chorobą Alzheimera, Parkinsona czy stwardnieniem rozsianym.",
-        "• Posiada bogate doświadczenie w prowadzeniu badań klinicznych, współpracuje z zagranicznymi ośrodkami, dzięki czemu wprowadza światowe standardy w opiekę nad pacjentem neurologicznym.",
+        "• Posiada bogate doświadczenie w prowadzeniu badań klinicznych, współpracuje z zagranicznymi ośrodkami, dzięki czemu wprowadza światowe standardy w opiece nad pacjentem neurologicznym.",
         "• Jest autorem i współautorem artykułów naukowych dotyczących interdyscyplinarnego podejścia do chorób afektywnych, łączącego neurologię, psychologię oraz psychiatrię."
       ],
       image: "/speakers/PRZEMO.jpg",
@@ -87,7 +88,7 @@ const Speakers = () => {
       title: "Dziedzina: Psychiatria, Psychoterapia",
       description: [
         "• Psychiatra i psychoterapeuta psychodynamiczny. Pracownik naukowy Uniwersytetu Medycznego w Białymstoku (UMB), łączący praktykę kliniczną z pracą badawczą.",
-        "• Posiada bogate doświadczenie w prowadzenie warsztatów m.in. z obszaru seksuologii i wpływu nowych technologii na psychikę i relacje międzyludzkie.",
+        "• Posiada bogate doświadczenie w prowadzeniu warsztatów m.in. z obszaru seksuologii i wpływu nowych technologii na psychikę i relacje międzyludzkie.",
         "• Jego publikacje naukowe koncentrują się na zagadnieniach mutyzmu wybiórczego oraz dysocjacyjnego zaburzenia tożsamości (osobowość mnoga) oraz sposobach przeciwdziałania im w terapii.",
         "• Prowadzi wykłady dla studentów medycyny, propagując nowatorskie podejścia do leczenia pacjentów z zaburzeniami seksualnymi i psychicznymi.",
         "• Ceniony za swoje zaangażowanie w pracę naukową i kliniczną, a także za empatyczne podejście do pacjentów, co przekłada się na skuteczność jego terapii."

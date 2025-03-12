@@ -41,7 +41,7 @@ const Home = () => {
           <div className="bg-white rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow">
             <CreditCard className="w-10 h-10 text-primary mb-4"/>
             <h3 className="text-xl font-semibold mb-2">Koszt Uczestnictwa</h3>
-            <p className="text-gray-600">Studenci APwB: nieodpłatnie</p>
+            <p className="text-gray-600">Studenci i pracownicy APwB: nieodpłatnie</p>
             <p className="text-gray-600 mt-2">Pozostali uczestnicy: 75 zł</p>
             <p className="text-gray-600 mt-2 text-sm">
               Wymagana rejestracja każdego z uczestników
