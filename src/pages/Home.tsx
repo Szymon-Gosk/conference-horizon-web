@@ -35,7 +35,7 @@ const Home = () => {
             <MapPin className="w-10 h-10 text-primary mb-4"/>
             <h3 className="text-xl font-semibold mb-2">Lokalizacja</h3>
             <p className="text-gray-600">Akademia Podlaska w Białymstoku</p>
-            <p className="text-gray-600 mt-2">Aula (sala 303, 2 piętro)</p>
+            <p className="text-gray-600 mt-2">Aula (sala 301, 2 piętro)</p>
             <p className="text-gray-600 mt-2">Al. Jana Pawła II 91</p>
           </div>
           <div className="bg-white rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow">
