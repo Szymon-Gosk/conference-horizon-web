@@ -13,7 +13,6 @@ const Navbar = () => {
     { name: "Prelegenci", path: "/prelegenci" },
     { name: "Komitety", path: "/komitety" },
     { name: "Patronaty", path: "/patronaty" },
-    { name: "Sponsorzy", path: "/sponsorzy" },
     { name: "Regulamin", path: "/regulamin" },
     { name: "Kontakt", path: "/kontakt" },
   ];

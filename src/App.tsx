@@ -10,7 +10,6 @@ import Program from "./pages/Program";
 import Speakers from "./pages/Speakers";
 import Committee from "./pages/Committee";
 import Patrons from "./pages/Patrons";
-import Sponsors from "./pages/Sponsors";
 import Terms from "./pages/Terms";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
@@ -30,7 +29,6 @@ const App = () => (
             <Route path="prelegenci" element={<Speakers />} />
             <Route path="komitety" element={<Committee />} />
             <Route path="patronaty" element={<Patrons />} />
-            <Route path="sponsorzy" element={<Sponsors />} />
             <Route path="regulamin" element={<Terms />} />
             <Route path="kontakt" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
