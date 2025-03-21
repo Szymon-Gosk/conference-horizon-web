@@ -22,8 +22,8 @@ const Program = () => {
 
   const handleDownloadPDF = () => {
     const link = document.createElement('a');
-    link.href = 'pdf/Plan konferencji.pdf';
-    link.download = 'Plan konferencji.pdf';
+    link.href = 'pdf/Agenda.pdf';
+    link.download = 'Agenda.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

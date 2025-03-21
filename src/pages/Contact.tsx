@@ -42,7 +42,7 @@ const Contact = () => {
         </div>
         <div className="bg-white rounded-lg shadow-sm p-8">
           <h2 className="text-2xl font-semibold text-primary mb-6">
-            Organizator konferencji
+            Koordynator konferencji
           </h2>
           <div className="space-y-6">
             <div className="flex items-center space-x-4">

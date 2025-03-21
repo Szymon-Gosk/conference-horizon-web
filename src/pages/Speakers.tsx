@@ -102,7 +102,8 @@ const Speakers = () => {
         "• Psycholog, certyfikowany seksuolog i psychoterapeuta poznawczo-behawioralny z bogatym doświadczeniem w prowadzeniu terapii indywidualnej.",
         "• Specjalizuje się w problematyce zaburzeń seksualnych, w tym w nowych trendach w seksuologii, takich jak chemsex czy cybersex, oraz w pomocy osobom borykającym się z uzależnieniami w sferze seksualnej.",
         "• Prowadzi warsztaty i konsultacje dla profesjonalistów oraz osób zainteresowanych pogłębieniem wiedzy w zakresie seksualności i zdrowia psychicznego.",
-        "• Jej publikacje naukowe dotyczą psychospołecznych czynników wpływających na relacje, intymność oraz ryzykowne zachowania seksualne."
+        "• Jej publikacje naukowe dotyczą psychospołecznych czynników wpływających na relacje, intymność oraz ryzykowne zachowania seksualne.",
+        "• Autorka cenionych publikacji naukowych dotyczących zaburzeń depresyjno-lękowych, psychologii uzależnień, edukacji zdrowotnej oraz innowacyjnych metod terapeutycznych."
       ],
       image: "/speakers/JUSTYNA4.png",
     },
@@ -123,7 +124,7 @@ const Speakers = () => {
       title: "Dziedzina: Diagnostyka labolatoryjna",
       description: [
         "• Absolwentka Uniwersytetu Medycznego w Białymstoku (UMB). Doktorantka w Zakładzie Medycyny Estetycznej na Uniwersytecie Medycznym w Białymstoku.",
-        "• W swojej pracy stosuje interdyscyplinarne podejście, łącząc różne dziedziny medycyny w celu zapewnienia kompleksowej opieki.",
+        "• W swojej pracy stosuje interdyscyplinarne podejście, łącząc różne dziedziny nauk medycznych.",
         "• Jej zainteresowania zawodowe obejmują psychiatrię oraz badania nad wpływem biomarkerów na szeroko pojęte zdrowie psychiczne.",
         "• Autorka i współautorka licznych publikacji naukowych z zakresu chorób onkologicznych w tym zastosowania oznaczenia markerów nowotworowych w diagnostyce onkologi ginekologicznej.",
         "• Jest ceniona za swoje zaangażowanie w pracę naukową oraz dydaktyczną."

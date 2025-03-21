@@ -17,7 +17,7 @@ const Terms = () => {
               1. Organizatorem konferencji jest Instytut Nauk Społecznych oraz Katedra Psychologii Akademii Podlaskiej w Białymstoku, we współpracy ze Studenckim Kołem Naukowym Psychologii i Psychoterapii „Psychologiczne Inspiracje"
             </p>
             <p className="text-gray-700">
-              2. Konferencja odbędzie się w dniu 23 maja 2025 roku w godzinach 13:00-19:30 i będzie prowadzona stacjonarnie w Akademii Podlaska w Białymstoku, (al. Jana Pawła II 91, 15-704 Białystok).
+              2. Konferencja odbędzie się w dniu 23 maja 2025 roku w godzinach 13:30-19:30 i będzie prowadzona stacjonarnie w Akademii Podlaska w Białymstoku, (al. Jana Pawła II 91, 15-704 Białystok).
             </p>
             <p className="text-gray-700">
               3. Konferencja ma na celu prezentację wyników badań, wymianę doświadczeń oraz promowanie innowacyjnych metod w psychologii i psychoterapii.
@@ -69,7 +69,7 @@ const Terms = () => {
             <p className="text-gray-700">1. Udział w konferencji jest płatny:</p>
             <ul className="list-disc pl-8 text-gray-700">
               <li>Zwykły uczestnik: 75 zł.</li>
-              <li>Studenci uczelni są zwolnieni z opłaty rejestracyjnej</li>
+              <li>Studenci i pracownicy uczelni są zwolnieni z opłaty rejestracyjnej</li>
             </ul>
             <p className="text-gray-700">
               2. Rejestracja odbywa się wyłącznie za pośrednictwem strony internetowej konferencji.
@@ -91,7 +91,7 @@ const Terms = () => {
             <p className="text-gray-700">
               1. Prelegenci zobowiązani są do przesłania abstraktu swojego wystąpienia w terminie do 30 marca 2025 roku.
             </p>
-            <p className="text-gray-700">2. Wystąpienia prelegentów powinny trwać 20 minut.</p>
+            <p className="text-gray-700">2. Wystąpienia prelegentów powinny trwać 25 minut.</p>
             <p className="text-gray-700">
               3. Organizator zastrzega sobie prawo do selekcji zgłoszonych referatów.
             </p>
@@ -122,7 +122,7 @@ const Terms = () => {
               4. Organizatorzy nie ponoszą odpowiedzialności za rzeczy zagubione lub pozostawione przez uczestników na terenie konferencji.
             </p>
             <p className="text-gray-700">
-              5. Uczestnik ponosi pełną odpowiedzialność za wszelkie przedstawione przez niego w czasie Konferencji materiały i informacje przedstawione przez niego podczas Konferencji nie naruszały przepisów prawa, ani praw lub dóbr osobistych osób trzecich.
+              5. Uczestnik ponosi pełną odpowiedzialność za wszelkie materiały i informacje przedstawione przez niego podczas Konferencji, zapewniając, że nie naruszają one przepisów prawa ani praw lub dóbr osobistych osób trzecich.
             </p>
             <p className="text-gray-700">
               6. Uczestnik zobowiązuje się do przestrzegania niniejszego Regulaminu, zasad społecznych, instrukcji oraz poleceń organizacyjno-technicznych Organizatora.
@@ -165,7 +165,7 @@ const Terms = () => {
               2. W sprawach nieuregulowanych niniejszym regulaminem decyzje podejmuje organizator.
             </p>
             <p className="text-gray-700">
-              3. Wszelkie pytania i uwagi dotyczące konferencji można kierować na adres e-mail: śniadach.justyna@gmail.com
+              3. Wszelkie pytania i uwagi dotyczące konferencji można kierować na adres e-mail: sniadach.justyna@gmail.com
             </p>
           </div>
         </section>

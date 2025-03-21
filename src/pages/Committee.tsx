@@ -101,7 +101,7 @@ const Committee = () => {
         </h1>
         
         {/* Chair */}
-        <h2 className="text-2xl font-bold text-primary mb-4">Przewodniczący</h2>
+        <h2 className="text-2xl font-bold text-primary mb-4">Przewodnicząca komitetu, koordynator konferencji</h2>
         <div className="bg-white rounded-lg shadow-sm p-8 mb-8">
           <div className="border-b border-gray-200 last:border-0 pb-6 last:pb-0">
             <h2 className="text-2xl font-bold text-primary">
@@ -115,7 +115,7 @@ const Committee = () => {
 
         {/* Vice Chair */}
         <h2 className="text-2xl font-bold text-primary mb-4">
-          Wiceprzewodniczący
+          Wiceprzewodnicząca komitetu
         </h2>
         <div className="bg-white rounded-lg shadow-sm p-8 mb-8">
           <div className="border-b border-gray-200 last:border-0 pb-6 last:pb-0">
@@ -129,7 +129,7 @@ const Committee = () => {
         </div>
 
         {/* Members */}
-        <h2 className="text-2xl font-bold text-primary mb-4">Członkowie</h2>
+        <h2 className="text-2xl font-bold text-primary mb-4">Członkowie komitetu</h2>
         <div className="bg-white rounded-lg shadow-sm p-8">
           <div className="grid gap-8">
             {organizingCommitteeMembers.map((member, index) => (
