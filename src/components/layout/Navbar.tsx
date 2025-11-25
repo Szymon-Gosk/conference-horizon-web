@@ -26,15 +26,8 @@ const Navbar = () => {
               {/* First logo */}
               <img
                 className="h-12 w-auto"
-                src="/logos/university.png"
+                src="/logos/logo-umb.png"
                 alt="University Logo"
-                loading="lazy"
-              />
-              {/* Second logo */}
-              <img
-                className="h-12 w-auto"
-                src="/logos/group.png"
-                alt="Group Logo"
                 loading="lazy"
               />
             </div>

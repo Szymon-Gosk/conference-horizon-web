@@ -120,7 +120,7 @@ const Speakers = () => {
       image: "/speakers/JUSTYNA.jpg",
     },
     {
-      name: "mgr Aleksandra Kicman",
+      name: "dr n. med. Aleksandra Kicman",
       title: "Dziedzina: Diagnostyka labolatoryjna",
       description: [
         "• Absolwentka Uniwersytetu Medycznego w Białymstoku (UMB). Doktorantka w Zakładzie Medycyny Estetycznej na Uniwersytecie Medycznym w Białymstoku.",
@@ -135,7 +135,21 @@ const Speakers = () => {
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-      <h1 className="text-4xl font-bold text-primary mb-8">Prelegenci</h1>
+        {/* TEMP INFO BOX */}
+        <div className="space-y-8 mb-8">
+            <div className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col md:flex-row">
+                <div className="md:w-3/4 p-6">
+                    <h2 className="text-2xl font-bold text-primary mb-2">
+                        Lista prelegentów tegorocznej edycji (2026) pojawi się wkrótce.
+                    </h2>
+                    {/*<h3 className="text-lg text-primary mb-4 italic"></h3>*/}
+                    {/*<h3 className="text-lg text-primary mb-4 italic"></h3>*/}
+                    <p className="text-gray-700">Wielu znakomitych ekspertów, którzy wystąpili w maju 2025 r., powróci również w tym roku, a dodatkowo dołączą nowi specjaliści.</p>
+                </div>
+            </div>
+        </div>
+        {/* END OF TEMP INFO BOX */}
+      <h1 className="text-4xl font-bold text-primary mb-8">Prelegenci 2025</h1>
       <div className="space-y-8">
         {speakers.map((speaker, index) => (
           <div

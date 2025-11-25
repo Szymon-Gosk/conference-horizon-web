@@ -33,6 +33,22 @@ const Patrons = () => {
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        {/* TEMP INFO BOX */}
+        <div className="space-y-8 mb-8">
+            <div className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col md:flex-row">
+                <div className="md:w-3/4 p-6">
+                    <h2 className="text-2xl font-bold text-primary mb-2">
+                        Aktualna lista patronów honorowych i medialnych dla edycji 2026 zostanie opublikowana wkrótce.
+                    </h2>
+                    <h3 className="text-lg text-primary mb-4 italic">Liczymy na kontynuację współpracy z dotychczasowymi partnerami oraz poszerzenie jej o nowych partnerów, instytucje i organizacje.
+                    </h3>
+                    {/*<h3 className="text-lg text-primary mb-4 italic"></h3>*/}
+                    <p className="text-gray-700">Poniższe patronaty dotyczą edycji konferencji z 2025 roku.
+                    </p>
+                </div>
+            </div>
+        </div>
+        {/* END OF TEMP INFO BOX */}
       <h1 className="text-4xl font-bold text-primary mb-8">Patronaty</h1>
       
       {/* Honorary Patrons */}

@@ -15,14 +15,14 @@ const Contact = () => {
               <Phone className="w-6 h-6 text-primary" />
               <div>
                 <p className="font-medium">Telefon</p>
-                <p className="text-gray-600">85 742 01 99</p>
+                <p className="text-gray-600">85 831 73 17</p>
               </div>
             </div>
             <div className="flex items-center space-x-4">
               <Mail className="w-6 h-6 text-primary" />
               <div>
                 <p className="font-medium">Email</p>
-                <p className="text-gray-600">apwb@apwb.pl</p>
+                <p className="text-gray-600">psych@umb.edu.pl</p>
               </div>
             </div>
             <div className="flex items-center space-x-4">
@@ -30,11 +30,11 @@ const Contact = () => {
               <div>
                 <p className="font-medium">Adres</p>
                 <p className="text-gray-600">
-                  Akademia Podlaska w Białymstoku
-                  <br />
-                  Al. Jana Pawła II 91
-                  <br />
-                  15-703 Białystok
+                    Klinika Psychiatrii UMB
+                    <br />
+                    ul. Wołodyjowskiego 2
+                    <br />
+                    15-272 Białystok
                 </p>
               </div>
             </div>

@@ -16,7 +16,7 @@ const Program = () => {
     { time: "17:50", speaker: "dr hab. n. med. Agnieszka Kułak-Bejda", title: "Zaburzenia więzi a depresja w ciąży i po porodzie", type: "speech", icon: MessageCircle },
     { time: "18:15", speaker: "dr. n. med. Przemysław Osip (Poznań)", speakerDescription: "dr Sylwia Szymkowiak (Poznań)", title: "Elektrostymulacja mózgu – przeszłość czy przyszłość psychiatrii?", type: "speech", icon: MessageCircle },
     { time: "18:40", speaker: "dr n. med. Justyna Sołowiej", speakerDescription: "dr Wiktor Orlof", title: "Chemsex, cybersex – nowe trendy w seksuologii", type: "speech", icon: MessageCircle },
-    { time: "19:05", speaker: "mgr Justyna Śniadach", speakerDescription: "mgr Aleksandra Kicman", title: "Marihuana – czego diler ci nie powie?", type: "speech", icon: MessageCircle },
+    { time: "19:05", speaker: "mgr Justyna Śniadach", speakerDescription: "dr n. med. Aleksandra Kicman", title: "Marihuana – czego diler ci nie powie?", type: "speech", icon: MessageCircle },
     { time: "19:30", title: "Zakończenie konferencji", type: "speech", icon: University }
   ];
 
@@ -99,15 +99,29 @@ const Program = () => {
           }}
         />
         <div className="relative">
+            {/* TEMP INFO BOX */}
+            <div className="space-y-8 mb-8">
+                <div className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col md:flex-row">
+                    <div className="md:w-3/4 p-6">
+                        <h2 className="text-2xl font-bold text-primary mb-2">
+                            Program II edycji konferencji (maj 2026) pojawi się wkrótce.
+                        </h2>
+                        {/*<h3 className="text-lg text-primary mb-4 italic"></h3>*/}
+                        {/*<h3 className="text-lg text-primary mb-4 italic"></h3>*/}
+                        <p className="text-gray-700">Do tego czasu zapraszamy do zapoznania się z programem poprzedniej edycji z maja 2025 r.</p>
+                    </div>
+                </div>
+            </div>
+            {/* END OF TEMP INFO BOX */}
           <div className="flex justify-between items-center mb-8">
-            <h1 className="text-4xl font-bold text-primary">Program Konferencji</h1>
-            <Button 
-              onClick={handleDownloadPDF} 
-              className="flex items-center gap-2 bg-primary hover:bg-primary-hover text-white"
-            >
-              <Download className="w-4 h-4" />
-              Pobierz Program PDF
-            </Button>
+            <h1 className="text-4xl font-bold text-primary">Program Konferencji 2025</h1>
+            {/*<Button */}
+            {/*  onClick={handleDownloadPDF} */}
+            {/*  className="flex items-center gap-2 bg-primary hover:bg-primary-hover text-white"*/}
+            {/*>*/}
+            {/*  <Download className="w-4 h-4" />*/}
+            {/*  Pobierz Program PDF*/}
+            {/*</Button>*/}
           </div>
           <div className="space-y-6">
             {renderScheduleItems()}

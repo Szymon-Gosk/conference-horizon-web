@@ -1,11 +1,25 @@
 const Terms = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        {/* TEMP INFO BOX */}
+        <div className="space-y-8 mb-8">
+            <div className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col md:flex-row">
+                <div className="md:w-3/4 p-6">
+                    <h2 className="text-2xl font-bold text-primary mb-2">
+                        Regulamin Konferencji Naukowej: Nowe Horyzonty w Psychiatrii i Psychoterapii II - Uzależnienia XXI wieku pojawi się wkrótce.
+                    </h2>
+                    {/*<h3 className="text-lg text-primary mb-4 italic"></h3>*/}
+                    {/*<h3 className="text-lg text-primary mb-4 italic"></h3>*/}
+                    <p className="text-gray-700">Do tego czasu zapraszamy do zapoznania się z programem ubiegłorocznej edycji z 2025 r.</p>
+                </div>
+            </div>
+        </div>
+        {/* END OF TEMP INFO BOX */}
       <h1 className="text-4xl font-bold text-primary mb-4">
-        Regulamin Konferencji Naukowej "Nowe Horyzonty w Psychologii i Psychoterapii: Innowacyjne Podejścia i Metody Leczenia"
+        Regulamin Konferencji Naukowej "Nowe Horyzonty w Psychologii i Psychoterapii: Innowacyjne Podejścia i Metody Leczenia" 2025
       </h1>
       <h2 className="text-xl text-gray-600 mb-8">
-        23 Maj 2025, Akademia Podlaska w Białymstoku
+        23 Maj 2025
       </h2>
       <div className="bg-white rounded-lg shadow-sm p-8 space-y-6">
         <section>
@@ -14,10 +28,10 @@ const Terms = () => {
           </h2>
           <div className="space-y-2">
             <p className="text-gray-700">
-              1. Organizatorem konferencji jest Instytut Nauk Społecznych oraz Katedra Psychologii Akademii Podlaskiej w Białymstoku, we współpracy ze Studenckim Kołem Naukowym Psychologii i Psychoterapii „Psychologiczne Inspiracje"
+              1. Organizatorem konferencji jest [nazwa organizatora - zredagowano], we współpracy ze [nazwa współorganizatora - zredagowano]
             </p>
             <p className="text-gray-700">
-              2. Konferencja odbędzie się w dniu 23 maja 2025 roku w godzinach 13:30-19:30 i będzie prowadzona stacjonarnie w Akademii Podlaska w Białymstoku, (al. Jana Pawła II 91, 15-704 Białystok).
+              2. Konferencja odbędzie się w dniu 23 maja 2025 roku w godzinach 13:30-19:30 i będzie prowadzona stacjonarnie w [nazwa instytucji - zredagowano], ([adres instytucji - zredagowano]).
             </p>
             <p className="text-gray-700">
               3. Konferencja ma na celu prezentację wyników badań, wymianę doświadczeń oraz promowanie innowacyjnych metod w psychologii i psychoterapii.

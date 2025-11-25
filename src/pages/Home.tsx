@@ -15,10 +15,10 @@ const Home = () => {
             Konferencja Naukowa
           </p>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold max-w-4xl mx-auto leading-tight mb-4">
-            Nowe Horyzonty w Psychologii i Psychoterapii
+            Nowe Horyzonty w Psychiatrii i Psychoterapii
           </h1>
           <p className="text-2xl md:text-3xl lg:text-4xl font-light">
-            Innowacyjne Podejścia i Metody Leczenia
+            Uzależnienia XXI wieku
           </p>
         </div>
       </div>
@@ -28,21 +28,22 @@ const Home = () => {
           <div className="bg-white rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow">
             <Calendar className="w-10 h-10 text-primary mb-4"/>
             <h3 className="text-xl font-semibold mb-2">Data Konferencji</h3>
-            <p className="text-gray-600">23 maja 2025 (piątek)</p>
-            <p className="text-gray-600 mt-2">godz. 13:30-19:30</p>
+            <p className="text-gray-600">29 maja 2026 (piątek)</p>
+            {/* Godzina na dole */}
+            <p className="text-gray-600 mt-2"></p>
           </div>
           <div className="bg-white rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow">
             <MapPin className="w-10 h-10 text-primary mb-4"/>
             <h3 className="text-xl font-semibold mb-2">Lokalizacja</h3>
-            <p className="text-gray-600">Akademia Podlaska w Białymstoku</p>
-            <p className="text-gray-600 mt-2">Aula (sala 301, 2 piętro)</p>
-            <p className="text-gray-600 mt-2">Al. Jana Pawła II 91</p>
+            <p className="text-gray-600">Wydział Nauk o Zdrowiu UMB</p>
+            <p className="text-gray-600 mt-2"></p>
+            <p className="text-gray-600 mt-2"></p>
           </div>
           <div className="bg-white rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow">
             <CreditCard className="w-10 h-10 text-primary mb-4"/>
             <h3 className="text-xl font-semibold mb-2">Koszt Uczestnictwa</h3>
-            <p className="text-gray-600">Studenci i pracownicy APwB: nieodpłatnie</p>
-            <p className="text-gray-600 mt-2">Pozostali uczestnicy: 75 zł</p>
+            <p className="text-gray-600">Nieodpłatnie</p>
+            <p className="text-gray-600 mt-2"></p>
             <p className="text-gray-600 mt-2 text-sm">
               Wymagana rejestracja każdego z uczestników
             </p>
@@ -55,14 +56,15 @@ const Home = () => {
               Cel konferencji
             </h2>
             <p className="text-gray-600 leading-relaxed">
-              Konferencja ma na celu promowanie zdrowia psychicznego dzieci, młodzieży i dorosłych oraz prezentację
-              najnowszych form leczenia. Jest to również okazja do wymiany wiedzy i rozwoju zawodowego specjalistów w
-              dziedzinie psychologii i psychoterapii.
-
-              Będzie to wyjątkowa szansa do wysłuchania wystąpień uznanych autorytetów z zakresu psychiatrii,
-              psychologii, psychoterapii i neurologii. W programie przewidziano także prezentacje studentów, co
-              umożliwi poznanie najbardziej obiecujących młodych badaczy oraz innowacyjnych pomysłów na terapię i
-              wsparcie osób w kryzysie psychicznym.
+                Konferencja ma na celu przedstawienie najnowszej wiedzy dotyczącej uzależnień XXI wieku oraz aktualnych
+                zagadnień z pogranicza psychiatrii, psychoterapii i neurologii. Wydarzenie stanowi przestrzeń do wymiany
+                doświadczeń klinicznych oraz spotkania specjalistów zajmujących się diagnozą, terapią i profilaktyką
+                współczesnych uzależnień — zarówno od substancji psychoaktywnych jak i behawioralnych.
+            </p>
+              <br/>
+            <p className="text-gray-600 leading-relaxed">
+                Uczestnicy będą mieli okazję wysłuchać wykładów uznanych ekspertów, zapoznać się z innowacyjnymi metodami
+                terapeutycznymi oraz najnowszymi wynikami badań.
             </p>
           </div>
 
@@ -71,11 +73,15 @@ const Home = () => {
               Dla kogo?
             </h2>
             <p className="text-gray-600 leading-relaxed">
-              Przedsięwzięcie skierowane jest do specjalistów z zakresu psychologii, psychiatrii, psychoterapii i
-              neurologii, a także do studentów kierunków związanych ze zdrowiem psychicznym oraz osób zainteresowanych
-              tematyką zdrowia psychicznego. Konferencja będzie również otwarta dla przedstawicieli organizacji
-              pozarządowych, instytucji wsparcia psychologicznego oraz wszystkich osób zaangażowanych w pomoc osobom w
-              kryzysie psychicznym.
+                Konferencja skierowana jest przede wszystkim do lekarzy, rezydentów psychiatrii oraz studentów kierunków medycznych zainteresowanych nowoczesnym podejściem do diagnostyki i leczenia zaburzeń psychicznych oraz uzależnień.
+            </p>
+              <br/>
+            <p className="text-gray-600 leading-relaxed">
+                Udział w wydarzeniu będzie wartościowy także dla psychologów, psychoterapeutów, specjalistów zdrowia publicznego, pracowników ochrony zdrowia, a także studentów kierunków medycznych, nauk o zdrowiu, psychologii, pedagogiki oraz kierunków pokrewnych.
+            </p>
+              <br/>
+            <p className="text-gray-600 leading-relaxed">
+                Zapraszamy również przedstawicieli instytucji i organizacji zajmujących się wsparciem osób z chorobami psychicznymi i uzależnieniami.
             </p>
           </div>
 
@@ -84,8 +90,8 @@ const Home = () => {
               Co zyskam?
             </h2>
             <p className="text-gray-600 leading-relaxed">
-              Każdy uczestnik otrzyma certyfikat uczestnictwa w konferencji oraz zestaw materiałów konferencyjnych
-              (torba materiałowa, notes, teczka na dokumenty, długopis, identyfikator ze smyczą).
+                Każdy uczestnik otrzyma certyfikat udziału w konferencji oraz identyfikator ze smyczą.
+                Wydarzenie będzie także okazją do zdobycia punktów edukacyjnych dla lekarzy rezydentów oraz przedstawicieli innych zawodów medycznych (zgodnie z obowiązującymi przepisami).
             </p>
           </div>
 
@@ -94,8 +100,7 @@ const Home = () => {
               Zapisy
             </h2>
             <p className="text-gray-600 leading-relaxed">
-              Aby zarejestrować się na konferencję, prosimy o skorzystanie z zakładki „Rejestracja”. Rejestracja jest
-              obowiązkowa dla wszystkich uczestników z uwagi na ograniczoną liczbę miejsc.
+                Aby zarejestrować się na konferencję, prosimy o skorzystanie z zakładki „Rejestracja”. Rejestracja jest obowiązkowa dla wszystkich uczestników z uwagi na ograniczoną liczbę miejsc.
             </p>
           </div>
 
@@ -104,9 +109,7 @@ const Home = () => {
               Organizatorzy
             </h2>
             <p className="text-gray-600 leading-relaxed">
-              Konferencja organizowana jest przez Instytut Nauk Społecznych oraz Katedrę Psychologii Akademii Podlaskiej
-              w Białymstoku we współpracy ze Studenckim Kołem Naukowym Psychologii i Psychoterapii „Psychologiczne
-              Inspiracje”.
+                Konferencja organizowana jest przez Klinikę Psychiatrii Uniwersytetu Medycznego w Białymstoku.
             </p>
           </div>
         </div>
