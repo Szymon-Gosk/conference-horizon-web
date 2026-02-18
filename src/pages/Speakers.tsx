@@ -14,17 +14,6 @@ const Speakers = () => {
       image: "/speakers/NAPOLEN.png",
     },
     {
-      name: "dr hab. n. med. Beata Galińska-Skok",
-      title: "Dziedzina: Psychiatria",
-      description: [
-        "• Lekarz, specjalista psychiatra, pełniąca funkcję wojewódzkiego konsultanta w dziedzinie psychiatrii. W swojej pracy koncentruje się na diagnostyce i leczeniu zaburzeń psychicznych, w tym schizofrenii.",
-        "• Bogate doświadczenie kliniczne łączy z działalnością dydaktyczną i naukową – jest autorką licznych publikacji naukowych oraz wystąpień konferencyjnych poświęconych badaniom neuroobrazowym w schizofrenii i chorobie dwubiegunowej, oraz biomarkerom zaburzeń psychicznych.",
-        "• Zastępca kierownika Kliniki Psychiatrii w Uniwersyteckim Szpitalu Klinicznym, współpracuje z różnymi ośrodkami akademickimi, promując wielostronne spojrzenie na pacjenta z zaburzeniami psychicznymi – od aspektów biomedycznych po psychospołeczne.",
-        "• Wielokrotnie nagradzana przez Rektora Uniwersytetu Medycznego w Białymstoku za działalność naukową i dydaktyczną."
-      ],
-      image: "/speakers/BEATA.jpg",
-    },
-    {
       name: "dr n med. Anna Rogowska-Zach",
       title: "Dziedzina: Psychologia, Psychoterapia dzieci i młodzieży",
       description: [
@@ -120,35 +109,33 @@ const Speakers = () => {
       image: "/speakers/JUSTYNA.jpg",
     },
     {
-      name: "dr n. med. Aleksandra Kicman",
-      title: "Dziedzina: Diagnostyka labolatoryjna",
+      name: "Joanna Szmurło",
+      title: "Dziedzina: Psychoterapia uzależnień",
       description: [
-        "• Absolwentka Uniwersytetu Medycznego w Białymstoku (UMB). Doktorantka w Zakładzie Medycyny Estetycznej na Uniwersytecie Medycznym w Białymstoku.",
-        "• W swojej pracy stosuje interdyscyplinarne podejście, łącząc różne dziedziny nauk medycznych.",
-        "• Jej zainteresowania zawodowe obejmują psychiatrię oraz badania nad wpływem biomarkerów na szeroko pojęte zdrowie psychiczne.",
-        "• Autorka i współautorka licznych publikacji naukowych z zakresu chorób onkologicznych w tym zastosowania oznaczenia markerów nowotworowych w diagnostyce onkologi ginekologicznej.",
-        "• Jest ceniona za swoje zaangażowanie w pracę naukową oraz dydaktyczną."
+        "• Dyrektor Ośrodka Revenu – miejsca kompleksowej pomocy osobom zmagającym się z uzależnieniami oraz ich rodzinom, łączącego terapię, psychoedukację i działania wspierające proces zdrowienia. Uznany specjalista psychoterapii uzależnień z ponad 20-letnim doświadczeniem w pracy terapeutycznej z młodzieżą i osobami dorosłymi.",
+        "• W swojej praktyce klinicznej koncentruje się na budowaniu bezpiecznej, stabilnej relacji terapeutycznej, pracy z emocjami, doświadczeniem relacyjnym oraz wzmacnianiu zasobów osób uzależnionych. Szczególną uwagę poświęca pacjentom, u których standardowe oddziaływania terapeutyczne okazują się niewystarczające, integrując podejście relacyjne z praktycznymi i skutecznymi narzędziami pracy.",
+        "• Jest aktywnie zaangażowana w lokalne działania na rzecz pomocy osobom uzależnionym, współpracuje z instytucjami pomocowymi oraz środowiskiem terapeutycznym. Posiada duże doświadczenie w prowadzeniu wystąpień konferencyjnych, szkoleń i warsztatów dla specjalistów oraz osób pracujących z pacjentami uzależnionymi.",
       ],
-      image: "/speakers/TAL.jpg",
+      image: "/speakers/SZMURLO_JOANNA.webp",
     },
   ];
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        {/* TEMP INFO BOX */}
-        <div className="space-y-8 mb-8">
-            <div className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col md:flex-row">
-                <div className="md:w-3/4 p-6">
-                    <h2 className="text-2xl font-bold text-primary mb-2">
-                        Lista prelegentów tegorocznej edycji (2026) pojawi się wkrótce.
-                    </h2>
-                    {/*<h3 className="text-lg text-primary mb-4 italic"></h3>*/}
-                    {/*<h3 className="text-lg text-primary mb-4 italic"></h3>*/}
-                    <p className="text-gray-700">Wielu znakomitych ekspertów, którzy wystąpili w maju 2025 r., powróci również w tym roku, a dodatkowo dołączą nowi specjaliści.</p>
-                </div>
-            </div>
-        </div>
-        {/* END OF TEMP INFO BOX */}
+        {/*/!* TEMP INFO BOX *!/*/}
+        {/*<div className="space-y-8 mb-8">*/}
+        {/*    <div className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col md:flex-row">*/}
+        {/*        <div className="md:w-3/4 p-6">*/}
+        {/*            <h2 className="text-2xl font-bold text-primary mb-2">*/}
+        {/*                Lista prelegentów tegorocznej edycji (2026) pojawi się wkrótce.*/}
+        {/*            </h2>*/}
+        {/*            /!*<h3 className="text-lg text-primary mb-4 italic"></h3>*!/*/}
+        {/*            /!*<h3 className="text-lg text-primary mb-4 italic"></h3>*!/*/}
+        {/*            <p className="text-gray-700">Wielu znakomitych ekspertów, którzy wystąpili w maju 2025 r., powróci również w tym roku, a dodatkowo dołączą nowi specjaliści.</p>*/}
+        {/*        </div>*/}
+        {/*    </div>*/}
+        {/*</div>*/}
+        {/*/!* END OF TEMP INFO BOX *!/*/}
       <h1 className="text-4xl font-bold text-primary mb-8">Prelegenci 2025</h1>
       <div className="space-y-8">
         {speakers.map((speaker, index) => (

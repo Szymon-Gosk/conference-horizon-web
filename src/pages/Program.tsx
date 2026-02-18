@@ -3,21 +3,33 @@ import { Button } from "@/components/ui/button";
 
 const Program = () => {
   const schedule = [
-    { startTime: "13:30", endTime: "14:00", title: "Rejestracja uczestników", type: "break", icon: ClipboardPen },
-    { time: "14:00", title: "Otwarcie Konferencji", type: "speech", icon: University },
-    { time: "14:15", title: "Wystąpienia studentów", speaker: "  ze Studenckiego Koła Naukowego Psychologii i Psychoterapii \"Psychologiczne Inspiracje\"", type: "speech", icon: GraduationCap },
-    { time: "15:15", title: "Wręczenie przez Rektora wyróżnień za studenckie wystąpienia", type: "speech", icon: Award },
-    { startTime: "15:30", endTime: "15:50", title: "I przerwa kawowa", type: "break", icon: Coffee },
-    { time: "15:50 - Sesja otwarcia", speaker: "prof. dr hab. n. med.  Napoleon Waszkiewicz", speakerDescription: "Członek Honorowy Komitetu Naukowego", title: "Czy mamy prawo leczyć psychodelikami?", type: "speech", icon: MessageCircle },
-    { time: "16:15", speaker: "dr hab. n med. Beata Galińska-Skok", speakerDescription: "Konsultant wojewódzki w dziedzinie psychiatrii", title: "Rodzina wobec choroby psychicznej – jak rozumieć i wspierać", type: "speech", icon: MessageCircle },
-    { time: "16:40", speaker: "dr n. med. Anna Rogowska Zach", speakerDescription: "Konsultant wojewódzki w dziedzinie psychoterapii dzieci i młodzieży", title: "Autystyczne obrony", type: "speech", icon: MessageCircle },
-    { time: "17:05", speaker: "mgr Renata Szymańska", speakerDescription: "Dyrektor WOPiTU w Łomży, konsultant wojewódzki w dziedzinie uzależnień", title: "Focusing w terapii osób uzależnionych", type: "speech", icon: MessageCircle },
-    { startTime: "17:30", endTime: "17:50", title: "II przerwa kawowa", type: "break", icon: Coffee },
-    { time: "17:50", speaker: "dr hab. n. med. Agnieszka Kułak-Bejda", title: "Zaburzenia więzi a depresja w ciąży i po porodzie", type: "speech", icon: MessageCircle },
-    { time: "18:15", speaker: "dr. n. med. Przemysław Osip (Poznań)", speakerDescription: "dr Sylwia Szymkowiak (Poznań)", title: "Elektrostymulacja mózgu – przeszłość czy przyszłość psychiatrii?", type: "speech", icon: MessageCircle },
-    { time: "18:40", speaker: "dr n. med. Justyna Sołowiej", speakerDescription: "dr Wiktor Orlof", title: "Chemsex, cybersex – nowe trendy w seksuologii", type: "speech", icon: MessageCircle },
-    { time: "19:05", speaker: "mgr Justyna Śniadach", speakerDescription: "dr n. med. Aleksandra Kicman", title: "Marihuana – czego diler ci nie powie?", type: "speech", icon: MessageCircle },
-    { time: "19:30", title: "Zakończenie konferencji", type: "speech", icon: University }
+    // { startTime: "13:30", endTime: "14:00", title: "Rejestracja uczestników", type: "break", icon: ClipboardPen },
+    // { time: "14:00", title: "Otwarcie Konferencji", speaker: "  Powitanie uczestników i wprowadzenie do tematyki uzależnień XXI wieku\n", type: "speech", icon: University },
+    // { time: "15:15", title: "Wręczenie przez Rektora wyróżnień za studenckie wystąpienia", type: "speech", icon: Award },
+    // { startTime: "15:30", endTime: "15:50", title: "I przerwa kawowa", type: "break", icon: Coffee },
+    // { time: "15:50 - Sesja otwarcia", speaker: "prof. dr hab. n. med.  Napoleon Waszkiewicz", speakerDescription: "Członek Honorowy Komitetu Naukowego", title: "Czy mamy prawo leczyć psychodelikami?", type: "speech", icon: MessageCircle },
+    // { time: "16:15", speaker: "dr hab. n med. Beata Galińska-Skok", speakerDescription: "Konsultant wojewódzki w dziedzinie psychiatrii", title: "Rodzina wobec choroby psychicznej – jak rozumieć i wspierać", type: "speech", icon: MessageCircle },
+    // { time: "16:40", speaker: "dr n. med. Anna Rogowska Zach", speakerDescription: "Konsultant wojewódzki w dziedzinie psychoterapii dzieci i młodzieży", title: "Autystyczne obrony", type: "speech", icon: MessageCircle },
+    // { time: "17:05", speaker: "mgr Renata Szymańska", speakerDescription: "Dyrektor WOPiTU w Łomży, konsultant wojewódzki w dziedzinie uzależnień", title: "Focusing w terapii osób uzależnionych", type: "speech", icon: MessageCircle },
+    // { startTime: "17:30", endTime: "17:50", title: "II przerwa kawowa", type: "break", icon: Coffee },
+    // { time: "17:50", speaker: "dr hab. n. med. Agnieszka Kułak-Bejda", title: "Zaburzenia więzi a depresja w ciąży i po porodzie", type: "speech", icon: MessageCircle },
+    // { time: "18:15", speaker: "dr. n. med. Przemysław Osip (Poznań)", speakerDescription: "dr Sylwia Szymkowiak (Poznań)", title: "Elektrostymulacja mózgu – przeszłość czy przyszłość psychiatrii?", type: "speech", icon: MessageCircle },
+    // { time: "18:40", speaker: "dr n. med. Justyna Sołowiej", speakerDescription: "dr Wiktor Orlof", title: "Chemsex, cybersex – nowe trendy w seksuologii", type: "speech", icon: MessageCircle },
+    // { time: "19:05", speaker: "mgr Justyna Śniadach", speakerDescription: "dr n. med. Aleksandra Kicman", title: "Marihuana – czego diler ci nie powie?", type: "speech", icon: MessageCircle },
+    // { time: "19:30", title: "Zakończenie konferencji", type: "speech", icon: University }
+  { startTime: "13:30", endTime: "14:00", title: "Rejestracja uczestników", type: "break", icon: ClipboardPen },
+  { time: "14:00", title: "Otwarcie Konferencji", speaker: "  Powitanie uczestników i wprowadzenie do tematyki uzależnień XXI wieku\n", type: "speech", icon: University },
+  { time: "14:10 - Sesja otwarcia", speaker: "prof. dr hab. n. med.  Napoleon Waszkiewicz", speakerDescription: "Członek Honorowy Komitetu Naukowego", title: "Nowe substancje psychoaktywne na rynku – czego powinniśmy się obawiać?\n", type: "speech", icon: MessageCircle },
+  { time: "14:45", speaker: "dr hab. n. med. Agnieszka Kułak-Bejda" , title: "Kobiece oblicze uzależnienia – między biologią a terapią\n", type: "speech", icon: MessageCircle },
+  { startTime: "15:20", endTime: "15:40", title: "I przerwa kawowa", type: "break", icon: Coffee },
+  { time: "15:40", speaker: "dr n. med. Anna Rogowska Zach", speakerDescription: "Konsultant wojewódzki w dziedzinie psychoterapii dzieci i młodzieży", title: "„Bez algorytmu nie dam rady?” Uzależnienie od AI i kryzys autonomii młodych ludzi\n", type: "speech", icon: MessageCircle },
+  { time: "16:15", speaker: "dr. n. med. Przemysław Osip (Poznań)", speakerDescription: "dr Sylwia Szymkowiak (Poznań)", title: "Fentanyl – narkotyk zombie już w Polsce. Pomiędzy psychiatrią a neurologią.\n", type: "speech", icon: MessageCircle },
+  { startTime: "16:50", endTime: "17:10", title: "II przerwa kawowa", type: "break", icon: Coffee },
+  { time: "17:10", speaker: "dr n. med. Justyna Sołowiej", speakerDescription: "dr Wiktor Orlof", title: "Cyberseks i uzależnienia behawioralne – nowe trendy we współczesnej seksuologii\n", type: "speech", icon: MessageCircle },
+  { time: "17:45", speaker: "mgr Joanna Szmurło-Grzybko", title: "Uzależnienie nie bierze się znikąd – regulacja emocji, relacja terapeutyczna i trudne realia leczenia uzależnień dzieci i młodzieży", type: "speech", icon: MessageCircle },
+  { time: "18:15", speaker: "mgr Renata Szymańska", speakerDescription: "Dyrektor WOPiTU w Łomży, konsultant wojewódzki w dziedzinie uzależnień", title: "Praca z doświadczeniem ciała w terapii osób uzależnionych – proces zmiany\n", type: "speech", icon: MessageCircle },
+  { time: "18:45 - Sesja zamknięcia", speaker: "mgr Justyna Śniadach", title: "Jak szybko i skutecznie rzucić palenie? Przegląd najnowszych metod i rekomendacji\n", type: "speech", icon: MessageCircle },
+  { time: "19:15", title: "Zakończenie konferencji", speaker: "  Podsumowanie kluczowych wniosków, podziękowania dla prelegentów, gości specjalnych  i uczestników, zaproszenie do rozmów kuluarowych", type: "speech", icon: University }
   ];
 
   const handleDownloadPDF = () => {
@@ -31,24 +43,24 @@ const Program = () => {
 
   const renderScheduleItems = () => {
     const items = [];
-    
+
     for (let i = 0; i < schedule.length; i++) {
-      if (i === 5) {
-        items.push(
-          <h2 key="section1" className="text-2xl font-semibold text-primary mt-10 mb-6">
-            Wystąpienia specjalistów panel I
-          </h2>
-        );
-      }
-      
-      if (i === 10) {
-        items.push(
-          <h2 key="section2" className="text-2xl font-semibold text-primary mt-10 mb-6">
-            Wystąpienia specjalistów panel II
-          </h2>
-        );
-      }
-      
+      // if (i === 5) {
+      //   items.push(
+      //     <h2 key="section1" className="text-2xl font-semibold text-primary mt-10 mb-6">
+      //       Wystąpienia specjalistów panel I
+      //     </h2>
+      //   );
+      // }
+
+      // if (i === 10) {
+      //   items.push(
+      //     <h2 key="section2" className="text-2xl font-semibold text-primary mt-10 mb-6">
+      //       Wystąpienia specjalistów panel II
+      //     </h2>
+      //   );
+      // }
+
       const item = schedule[i];
       items.push(
         <div
@@ -85,7 +97,7 @@ const Program = () => {
         </div>
       );
     }
-    
+
     return items;
   };
 
@@ -99,22 +111,9 @@ const Program = () => {
           }}
         />
         <div className="relative">
-            {/* TEMP INFO BOX */}
-            <div className="space-y-8 mb-8">
-                <div className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col md:flex-row">
-                    <div className="md:w-3/4 p-6">
-                        <h2 className="text-2xl font-bold text-primary mb-2">
-                            Program II edycji konferencji (maj 2026) pojawi się wkrótce.
-                        </h2>
-                        {/*<h3 className="text-lg text-primary mb-4 italic"></h3>*/}
-                        {/*<h3 className="text-lg text-primary mb-4 italic"></h3>*/}
-                        <p className="text-gray-700">Do tego czasu zapraszamy do zapoznania się z programem poprzedniej edycji z maja 2025 r.</p>
-                    </div>
-                </div>
-            </div>
-            {/* END OF TEMP INFO BOX */}
+
           <div className="flex justify-between items-center mb-8">
-            <h1 className="text-4xl font-bold text-primary">Program Konferencji 2025</h1>
+            <h1 className="text-4xl font-bold text-primary">Program Konferencji 2026</h1>
             {/*<Button */}
             {/*  onClick={handleDownloadPDF} */}
             {/*  className="flex items-center gap-2 bg-primary hover:bg-primary-hover text-white"*/}
