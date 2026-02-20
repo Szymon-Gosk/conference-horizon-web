@@ -6,7 +6,7 @@ const Speakers = () => {
       title: "Kierownik Kliniki Psychiatrii Uniwersytetu Medycznego w Białymstoku",
       secondTitle: "Dziedzina: Psychiatria",
       description: [
-        "Prof. dr hab. n. med. Napoleon Waszkiewicz jest wybitnym specjalistą w dziedzinie psychiatrii, pełniącym funkcję kierownika Kliniki Psychiatrii Uniwersytetu Medycznego w Białymstoku. Jest również prezesem Oddziału Podlaskiego Polskiego Towarzystwa Psychiatrycznego.",
+        "• Prof. dr hab. n. med. Napoleon Waszkiewicz jest wybitnym specjalistą w dziedzinie psychiatrii, pełniącym funkcję kierownika Kliniki Psychiatrii Uniwersytetu Medycznego w Białymstoku. Jest również prezesem Oddziału Podlaskiego Polskiego Towarzystwa Psychiatrycznego.",
         "• Ceniony w Polsce i za granicą ekspert w zakresie nowoczesnych metod leczenia zaburzeń psychicznych.",
         "• Od wielu lat prowadzi badania naukowe nad wykorzystaniem psychodelików i innych niekonwencjonalnych środków w psychiatrii, koncentrując się na etycznym, klinicznym i społecznym wymiarze tych terapii.",
         "• Autor i współautor licznych publikacji w renomowanych czasopismach medycznych. Jego prace dotyczą m.in. psychofarmakologii, podłoża neurobiologicznego zaburzeń oraz badań klinicznych nad innowacyjnymi metodami leczenia."
@@ -14,7 +14,20 @@ const Speakers = () => {
       image: "/speakers/NAPOLEN.png",
     },
     {
-      name: "dr n med. Anna Rogowska-Zach",
+      name: "dr n. med. Bohdan Tadeusz Woronowicz",
+      secondTitle: "Dziedzina: Psychiatria, Psychoterapia uzależnień, Seksuologia",
+      description: [
+        "• Specjalista psychiatrii i seksuolog, certyfikowany specjalista terapii uzależnień oraz certyfikowany superwizor psychoterapii uzależnień",
+        "• Twórca i wieloletni kierownik Ośrodka Terapii Uzależnień w Instytucie Psychiatrii i Neurologii w Warszawie (kierował nim przez 35 lat).",
+        "• Założyciel i wieloletni dyrektor Centrum Konsultacyjnego AKMED.",
+        "• Wieloletni prezes Zarządu Fundacji Doktora Woronowicza „Zależni–Niezależni”.",
+        "• Odznaczony Krzyżem Oficerskim Orderu Odrodzenia Polski (1999).",
+        "• Laureat Nagrody Pelikana (2015) oraz Nagrody m.st. Warszawy (2018) za wybitne zaangażowanie w pomoc osobom uzależnionym",
+      ],
+      image: "/speakers/WORON.jpg",
+    },
+    {
+      name: "dr n. med. Anna Rogowska-Zach",
       title: "Dziedzina: Psychologia, Psychoterapia dzieci i młodzieży",
       description: [
         "• Psycholog, specjalista psychoterapii dzieci i młodzieży oraz psychoterapeutka psychoanalityczna. Pełni funkcję wojewódzkiego konsultanta w dziedzinie psychoterapii dzieci i młodzieży.",
@@ -109,7 +122,7 @@ const Speakers = () => {
       image: "/speakers/JUSTYNA.jpg",
     },
     {
-      name: "Joanna Szmurło",
+      name: "mgr Joanna Szmurło-Grzybko",
       title: "Dziedzina: Psychoterapia uzależnień",
       description: [
         "• Dyrektor Ośrodka Revenu – miejsca kompleksowej pomocy osobom zmagającym się z uzależnieniami oraz ich rodzinom, łączącego terapię, psychoedukację i działania wspierające proces zdrowienia. Uznany specjalista psychoterapii uzależnień z ponad 20-letnim doświadczeniem w pracy terapeutycznej z młodzieżą i osobami dorosłymi.",

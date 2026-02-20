@@ -12,7 +12,7 @@ const Home = () => {
         <div className="absolute inset-0 bg-primary/60 backdrop-blur-sm"/>
         <div className="relative z-10 text-center text-white px-4">
           <p className="text-xl md:text-2xl lg:text-3xl font-medium mb-3">
-            Konferencja Naukowa
+            Ogólnopolska Konferencja Naukowa
           </p>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold max-w-4xl mx-auto leading-tight mb-4">
             Nowe Horyzonty w Psychiatrii i Psychoterapii
@@ -30,7 +30,7 @@ const Home = () => {
             <h3 className="text-xl font-semibold mb-2">Data Konferencji</h3>
             <p className="text-gray-600">29 maja 2026 (piątek)</p>
             {/* Godzina na dole */}
-            <p className="text-gray-600 mt-2"></p>
+            <p className="text-gray-600 mt-2">godz. 13:30-20:00</p>
           </div>
           <div className="bg-white rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow">
             <MapPin className="w-10 h-10 text-primary mb-4"/>
