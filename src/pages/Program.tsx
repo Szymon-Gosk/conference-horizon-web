@@ -28,6 +28,13 @@ const Program = () => {
     },
     {
       time: "14:10",
+      speaker: "dr hab. n. med. Agnieszka Kułak-Bejda",
+      title: "Kobiece oblicze uzależnienia – między biologią a terapią\n",
+      type: "speech",
+      icon: MessageCircle
+    },
+    {
+      time: "14:45",
       speaker: "prof. dr hab. n. med.  Napoleon Waszkiewicz",
       speakerDescription: "Członek Honorowy Komitetu Naukowego",
       title: "Nowe substancje psychoaktywne na rynku – czego powinniśmy się obawiać?\n",
@@ -35,20 +42,13 @@ const Program = () => {
       icon: MessageCircle
     },
     {
-      time: "14:50",
+      time: "15:25",
       speaker: "dr n. med. Bohdan Tadeusz Woronowicz (Warszawa)",
       title: "Uzależnienie wśród lekarzy – choroba w białym fartuchu\n",
       type: "speech",
       icon: MessageCircle
     },
-    {startTime: "15:30", endTime: "15:45", title: "I przerwa kawowa", type: "break", icon: Coffee},
-    {
-      time: "15:45",
-      speaker: "dr hab. n. med. Agnieszka Kułak-Bejda",
-      title: "Kobiece oblicze uzależnienia – między biologią a terapią\n",
-      type: "speech",
-      icon: MessageCircle
-    },
+    {startTime: "16:05", endTime: "16:20", title: "I przerwa kawowa", type: "break", icon: Coffee},
     {
       time: "16:20",
       speaker: "dr n. med. Anna Rogowska Zach",
