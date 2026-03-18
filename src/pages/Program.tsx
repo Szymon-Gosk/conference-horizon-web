@@ -68,7 +68,7 @@ const Program = () => {
     {
       time: "17:45",
       speaker: "dr n. med. Przemysław Osip (Poznań)",
-      speakerDescription: "dr Sylwia Szymkowiak (Poznań)",
+      speakerDescription: "Sylwia Szymkowiak: Lekarz specjalista psychiatrii oraz psychoterapeutka systemowa (Poznań)",
       title: "Fentanyl – narkotyk zombie już w Polsce. Pomiędzy psychiatrią a neurologią.\n",
       type: "speech",
       icon: MessageCircle
@@ -76,7 +76,7 @@ const Program = () => {
     {
       time: "18:20 ",
       speaker: "dr n. med. Justyna Sołowiej",
-      speakerDescription: "dr Wiktor Orlof",
+      speakerDescription: "Wiktor Orlof: Lekarz specjalista psychiatrii",
       title: "Cyberseks i uzależnienia behawioralne – nowe trendy we współczesnej seksuologii\n",
       type: "speech",
       icon: MessageCircle

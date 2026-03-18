@@ -50,14 +50,13 @@ const Speakers = () => {
     },
     {
       name: "dr hab. n. med. Agnieszka Kułak-Bejda",
-      title: "Dziedzina: Psychiatria, Psychotraumatologia",
+      title: "Dziedzina: Psychiatria",
       description: [
-        "• Specjalistka w dziedzinie psychiatrii oraz psychotraumatologii.",
-        "• Jest ekspertem w zagadnieniach związanych z zaburzeniami psychicznymi występującymi u kobiet w ciąży i w okresie poporodowym, szczególnie w kontekście depresji oraz traumy poporodowej.",
-        "• Prowadzi badania nad wpływem czynników psychologicznych i społeczno-kulturowych na zdrowie psychiczne kobiet, podkreślając znaczenie wsparcia rodziny i otoczenia medycznego.",
-        "• Autorka licznych artykułów naukowych publikowanych w czasopismach medycznych oraz rozdziałów w monografiach dotyczących opieki psychiatrycznej w okresie okołoporodowym.",
-        "• Organizuje szkolenia z zakresu rozpoznawania wczesnych objawów zaburzeń nastroju u kobiet w ciąży i po porodzie, kierowane do lekarzy, położnych i psychologów.",
-        "• Autorka licznych artykułów naukowych publikowanych w czasopismach medycznych, monografii oraz rozdziałów w monografiach."
+        "• Lekarz psychiatra, adiunkt w Klinice Psychiatrii Uniwersytetu Medycznego w Białymstoku.",
+        "• Prowadzi działalność naukową i dydaktyczną, realizując badania oraz zajęcia dla studentów kierunków medycznych.",
+        "• Jej zainteresowania badawcze obejmują funkcjonowanie psychiczne kobiet, w tym w okresie ciąży i po porodzie, ze szczególnym uwzględnieniem czynników emocjonalnych i społecznych.",
+        "• Kierownik i wykonawca projektów naukowych oraz uczestniczka międzynarodowej współpracy badawczej.",
+        "• Autorka i współautorka licznych publikacji naukowych oraz monografii w obszarze psychiatrii i zdrowia psychicznego.",
       ],
       image: "/speakers/AGA.jpg",
     },
@@ -65,35 +64,34 @@ const Speakers = () => {
       name: "dr n. med. Przemysław Osip",
       title: "Dziedzina: Neurologia",
       description: [
-        "• Specjalista w dziedzinie neurologii, ordynator Oddziału Neurologicznego i Udarowego w Szpitalu HCP w Poznaniu.",
-        "• Ekspert w dziedzinie chorób neurodegeneracyjnych oraz psychiatrycznych aspektach tych schorzeń.",
-        "• W swoich badaniach koncentruje się na wczesnej diagnostyce oraz poszukiwaniu innowacyjnych metod leczenia i rehabilitacji pacjentów zmagających się m.in. z chorobą Alzheimera, Parkinsona czy stwardnieniem rozsianym.",
+        "• Lekarz specjalista neurologii, związany z Centrum Medycznym HCP w Poznaniu.",
+        "• Ordynator oddziału neurologicznego i udarowego, posiadający wieloletnie doświadczenie kliniczne w leczeniu pacjentów neurologicznych.",
+        "• Zajmuje się diagnostyką i leczeniem chorób układu nerwowego w warunkach szpitalnych i ambulatoryjnych.",
         "• Posiada bogate doświadczenie w prowadzeniu badań klinicznych, współpracuje z zagranicznymi ośrodkami, dzięki czemu wprowadza światowe standardy w opiece nad pacjentem neurologicznym.",
-        "• Jest autorem i współautorem artykułów naukowych dotyczących interdyscyplinarnego podejścia do chorób afektywnych, łączącego neurologię, psychologię oraz psychiatrię."
+        "• Autor i współautor publikacji naukowych z zakresu neurologii i neuropsychiatrii."
       ],
       image: "/speakers/PRZEMO.jpg",
     },
     {
-      name: "dr Sylwia Szymkowiak",
+      name: "Sylwia Szymkowiak: Lekarz specjalista psychiatrii oraz psychoterapeutka systemowa",
       title: "Dziedzina: Psychiatria, Psychoterapia",
       description: [
-        "• Specjalistka w dziedzinie psychiatrii oraz psychoterapeutka systemowa.",
-        "• Ordynator dziennego oddziału psychiatrycznego w Szpitalu HCP w Poznaniu, specjalizująca się w psychiatrii środowiskowej oraz psychoterapii osób przewlekle chorujących psychicznie.",
-        "• Czynnie wdraża programy mające na celu umożliwienie pacjentom skutecznego funkcjonowania w warunkach domowych i społecznych, z minimalną koniecznością hospitalizacji.",
-        "• Współorganizuje spotkania i warsztaty edukacyjne dla rodzin pacjentów psychiatrycznych, promując ideę wszechstronnego wsparcia i współpracy interdyscyplinarnej.",
-        "• Regularnie występuje na konferencjach i sympozjach, prezentując wyniki badań oraz praktyczne wnioski z zakresu leczenia psychiatrycznego oraz skutecznych metod psychoedukacji."
+        "• Ordynator dziennego oddziału psychiatrycznego w Szpitalu HCP w Poznaniu, z doświadczeniem w pracy z pacjentami przewlekle chorującymi psychicznie.",
+        "• W swojej pracy klinicznej koncentruje się na podejściu środowiskowym oraz wsparciu funkcjonowania pacjentów w funkcjonowaniu społecznym i rodzinnym.",
+        "• Główny badacz (Principal Investigator) w badaniach klinicznych, z wieloletnim doświadczeniem w ich realizacji.",
+        "• Współautorka wartościowych publikacji naukowych z zakresu psychiatrii.",
+        "• Realizuje pracę doktorską dotyczącą wczesnej diagnostyki zaburzeń afektywnych dwubiegunowych."
       ],
       image: "/speakers/SYSIA.jpg",
     },
     {
-      name: "dr Wiktor Orlof",
+      name: "Wiktor Orlof: Lekarz specjalista psychiatrii",
       title: "Dziedzina: Psychiatria, Psychoterapia",
       description: [
-        "• Psychiatra i psychoterapeuta psychodynamiczny. Pracownik naukowy Uniwersytetu Medycznego w Białymstoku (UMB), łączący praktykę kliniczną z pracą badawczą.",
-        "• Posiada bogate doświadczenie w prowadzeniu warsztatów m.in. z obszaru seksuologii i wpływu nowych technologii na psychikę i relacje międzyludzkie.",
-        "• Jego publikacje naukowe koncentrują się na zagadnieniach mutyzmu wybiórczego oraz dysocjacyjnego zaburzenia tożsamości (osobowość mnoga) oraz sposobach przeciwdziałania im w terapii.",
-        "• Prowadzi wykłady dla studentów medycyny, propagując nowatorskie podejścia do leczenia pacjentów z zaburzeniami seksualnymi i psychicznymi.",
-        "• Ceniony za swoje zaangażowanie w pracę naukową i kliniczną, a także za empatyczne podejście do pacjentów, co przekłada się na skuteczność jego terapii."
+        "• Specjalista psychiatrii oraz psychoterapeuta psychodynamiczny. Związany z Uniwersytetem Medycznym w Białymstoku, gdzie łączy pracę kliniczną z działalnością dydaktyczną.",
+        "• Posiada doświadczenie w prowadzeniu warsztatów  z zakresu m.in. seksuologii oraz wpływu nowych technologii na funkcjonowanie psychiczne i relacje interpersonalne.",
+        "• Autor i współautor publikacji naukowych poświęconych zagadnieniom mutyzmu wybiórczego oraz zaburzeń dysocjacyjnych, ze szczególnym uwzględnieniem ich znaczenia klinicznego i możliwości terapeutycznych.",
+        "• Prowadzi zajęcia dydaktyczne dla studentów kierunków medycznych. W swojej pracy koncentruje się na nowoczesnych podejściach do diagnostyki i leczenia zaburzeń psychicznych, w tym zaburzeń z obszaru zdrowia seksualnego.",
       ],
       image: "/speakers/WIKTOR.jpg",
     },
@@ -105,7 +103,6 @@ const Speakers = () => {
         "• Specjalizuje się w problematyce zaburzeń seksualnych, w tym w nowych trendach w seksuologii, takich jak chemsex czy cybersex, oraz w pomocy osobom borykającym się z uzależnieniami w sferze seksualnej.",
         "• Prowadzi warsztaty i konsultacje dla profesjonalistów oraz osób zainteresowanych pogłębieniem wiedzy w zakresie seksualności i zdrowia psychicznego.",
         "• Jej publikacje naukowe dotyczą psychospołecznych czynników wpływających na relacje, intymność oraz ryzykowne zachowania seksualne.",
-        "• Autorka cenionych publikacji naukowych dotyczących zaburzeń depresyjno-lękowych, psychologii uzależnień, edukacji zdrowotnej oraz innowacyjnych metod terapeutycznych."
       ],
       image: "/speakers/JUSTYNA4.png",
     },
@@ -114,7 +111,7 @@ const Speakers = () => {
       title: "Dziedzina: Psychologia, Psychoterapia, Terapia uzależnień",
       description: [
         "• Psycholog, psychoterapeutka poznawczo-behawioralna, certyfikowana specjalistka psychoterapii uzależnień.",
-        "• Biegła sądowa w dziedzinie psychologii oraz w przedmiocie uzależnienia.",
+        "• Posiada doświadczenie jako biegła sądowa w dziedzinie psychologii oraz w przedmiocie uzależnienia",
         "• Posiada wieloletnie doświadczenie zawodowe w pracy z dziećmi, młodzieżą oraz dorosłymi.",
         "• Obecnie realizuje doktorat z zakresu uzależnienia od klasycznych papierosów, e-papierosów oraz podgrzewanych wyrobów tytoniowych (HTP).",
         "• Jej wystąpienia i warsztaty kładą nacisk na rzetelną edukację, przejrzyste informacje o zagrożeniach oraz budowanie świadomości w zakresie odpowiedzialnego zachowania wobec używek."
