@@ -146,7 +146,7 @@ const Speakers = () => {
         {/*    </div>*/}
         {/*</div>*/}
         {/*/!* END OF TEMP INFO BOX *!/*/}
-      <h1 className="text-4xl font-bold text-primary mb-8">Prelegenci 2025</h1>
+      <h1 className="text-4xl font-bold text-primary mb-8">Prelegenci 2026</h1>
       <div className="space-y-8">
         {speakers.map((speaker, index) => (
           <div
