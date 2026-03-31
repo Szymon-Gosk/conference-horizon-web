@@ -9,6 +9,9 @@ const Footer = () => {
             <div className="flex items-center justify-center">
               <img src="/logos/logo-umb.png" alt="Logo 1" className="h-20 w-auto" loading="lazy" />
             </div>
+            <div className="flex items-center justify-center">
+              <img src="/logos/oil.png" alt="Logo 1" className="h-16 w-auto" loading="lazy" />
+            </div>
           </div>
           <div className="flex space-x-4 items-center">
             {/* Second section - medium and small logos */}

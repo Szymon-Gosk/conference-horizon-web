@@ -2,29 +2,21 @@
 const Sponsors = () => {
   const sponsors = [
     {
-      name: "Fundacja L i D",
-      logo: "/sponsors/fundacja.jpg",
+      name: "Adamed",
+      logo: "/sponsors/Adamed-logo.png",
     },
     {
-      name: "Koło gospodyń wiejskich w Sokółce",
-      logo: "/sponsors/kolo-gospodyn.png",
+      name: "Polpharma",
+      logo: "/sponsors/polpharma-logo.jpg",
     },
-    {
-      name: "Barbara Okuła, posłanka na Sejm RP",
-      logo: "/sponsors/female.jpg",
-    },
-    {
-      name: "Urząd Miejski w Białymstoku",
-      logo: "/sponsors/sponsor-bialystok.png",
-    },
-    {
-      name: "Urząd Marszałkowski Województwa Podlaskiego",
-      logo: "/sponsors/sponsor-wojewodztwo.png",
-    },
-    {
-      name: "Urząd Marszałk",
-      logo: "/sponsors/sponsor-wojewodztwo.png",
-    },
+    // {
+    //   name: "Urząd Miejski w Białymstoku",
+    //   logo: "/sponsors/sponsor-bialystok.png",
+    // },
+    // {
+    //   name: "Urząd Marszałkowski Województwa Podlaskiego",
+    //   logo: "/sponsors/sponsor-wojewodztwo.png",
+    // },
   ];
 
 
@@ -34,37 +26,39 @@ const Sponsors = () => {
       
       {/* Sponsors */}
       <div className="bg-white rounded-lg shadow-sm p-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {sponsors.slice(0, 3).map((sponsor, index) => (
-            <div
-              key={index}
-              className="flex flex-col items-center justify-center p-4"
-            >
-              <img
-                src={sponsor.logo}
-                alt={sponsor.name}
-                className="h-24 w-auto mb-4"
-                loading="lazy"
-              />
-              <p className="text-center text-gray-600">{sponsor.name}</p>
-            </div>
-          ))}
-        </div>
+        {/*<div className="grid grid-cols-1 md:grid-cols-3 gap-8">*/}
+        {/*  {sponsors.slice(0, 3).map((sponsor, index) => (*/}
+        {/*    <div*/}
+        {/*      key={index}*/}
+        {/*      className="flex flex-col items-center justify-center p-4"*/}
+        {/*    >*/}
+        {/*      <img*/}
+        {/*        src={sponsor.logo}*/}
+        {/*        alt={sponsor.name}*/}
+        {/*        className="h-24 w-auto mb-4"*/}
+        {/*        loading="lazy"*/}
+        {/*      />*/}
+        {/*      <p className="text-center text-gray-600">{sponsor.name}</p>*/}
+        {/*    </div>*/}
+        {/*  ))}*/}
+        {/*</div>*/}
         
         {/* Second row of sponsors, centered */}
         <div className="flex justify-center mt-8">
           <div className="grid grid-cols-2 gap-8 max-w-[66%]">
-            {sponsors.slice(3, 5).map((sponsor, index) => (
+            {sponsors.slice(0, 2).map((sponsor, index) => (
               <div
                 key={index + 3}
                 className="flex flex-col items-center justify-center p-4"
               >
-                <img
-                  src={sponsor.logo}
-                  alt={sponsor.name}
-                  className="h-24 w-auto mb-4"
-                  loading="lazy"
-                />
+                <div className="flex items-center justify-center h-32">
+                  <img
+                    src={sponsor.logo}
+                    alt={sponsor.name}
+                    className="h-24 w-auto mb-4"
+                    loading="lazy"
+                  />
+                </div>
                 <p className="text-center text-gray-600">{sponsor.name}</p>
               </div>
             ))}

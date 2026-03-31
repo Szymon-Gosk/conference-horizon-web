@@ -16,6 +16,16 @@ const Patrons = () => {
       logo: "/logos/wojewoda.jpeg",
       size: "h-36"
     },
+    {
+      name: "Okręgowa Izba Lekarska w Białymstoku",
+      logo: "/logos/oil.png",
+      size: "h-22"
+    },
+    {
+      name: "Krajowe Centrum Przeciwdziałania Uzależnieniom",
+      logo: "/logos/kcpu.png",
+      size: "h-24"
+    },
   ];
 
   const mediaSponsors = [
@@ -41,7 +51,7 @@ const Patrons = () => {
           Patronaty honorowe objęli
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {honorarySponsors.map((sponsor, index) => (
+          {honorarySponsors.slice(0, 3).map((sponsor, index) => (
             <div
               key={index}
               className="flex flex-col items-center justify-center p-4"
@@ -57,6 +67,26 @@ const Patrons = () => {
               <p className="text-center text-gray-600 mt-4">{sponsor.name}</p>
             </div>
           ))}
+        </div>
+        <div className="flex justify-center mt-8">
+          <div className="grid grid-cols-2 gap-8 max-w-[66%]">
+            {honorarySponsors.slice(3, 5).map((sponsor, index) => (
+              <div
+                key={index + 3}
+                className="flex flex-col items-center justify-center p-4"
+              >
+                <div className="flex items-center justify-center h-32">
+                  <img
+                    src={sponsor.logo}
+                    alt={sponsor.name}
+                    className={`w-auto ${sponsor.size} object-contain`}
+                    loading="lazy"
+                  />
+                </div>
+                <p className="text-center text-gray-600 mt-4">{sponsor.name}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
 

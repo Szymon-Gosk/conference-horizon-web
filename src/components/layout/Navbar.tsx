@@ -1,20 +1,20 @@
-
-import { useState } from "react";
-import { Link, useLocation } from "react-router-dom";
-import { Menu, X } from "lucide-react";
+import {useState} from "react";
+import {Link, useLocation} from "react-router-dom";
+import {Menu, X, House} from "lucide-react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
 
   const navItems = [
-    { name: "Strona Główna", path: "/" },
-    { name: "Program", path: "/program" },
-    { name: "Prelegenci", path: "/prelegenci" },
-    { name: "Komitety", path: "/komitety" },
-    { name: "Patronaty", path: "/patronaty" },
-    { name: "Regulamin", path: "/regulamin" },
-    { name: "Kontakt", path: "/kontakt" },
+    {name: "Strona Główna", path: "/"},
+    {name: "Program", path: "/program"},
+    {name: "Prelegenci", path: "/prelegenci"},
+    {name: "Komitety", path: "/komitety"},
+    {name: "Patronaty", path: "/patronaty"},
+    {name: "Sponsorzy", path: "/sponsorzy"},
+    {name: "Regulamin", path: "/regulamin"},
+    {name: "Kontakt", path: "/kontakt"},
   ];
 
   return (
@@ -31,7 +31,7 @@ const Navbar = () => {
                 loading="lazy"
               />
             </div>
-            <div className="hidden lg:ml-6 lg:flex lg:space-x-6 items-center">
+            <div className="hidden lg:flex lg:space-x-4 items-center">
               {navItems.map((item) => (
                 <Link
                   key={item.name}
@@ -42,7 +42,8 @@ const Navbar = () => {
                       : "text-gray-700 hover:text-primary transition-colors"
                   } px-3 py-2 text-sm font-medium`}
                 >
-                  {item.name}
+                  {item.name === "Strona Główna" ? <House size={20}/> : item.name}
+                  {/*{item.name}*/}
                 </Link>
               ))}
             </div>
@@ -60,7 +61,7 @@ const Navbar = () => {
               className="lg:hidden ml-4 text-gray-700"
               onClick={() => setIsOpen(!isOpen)}
             >
-              {isOpen ? <X size={24} /> : <Menu size={24} />}
+            {isOpen ? <X size={24}/> : <Menu size={24}/>}
             </button>
           </div>
         </div>

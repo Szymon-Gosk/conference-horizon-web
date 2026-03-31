@@ -109,7 +109,7 @@ const Home = () => {
               Organizatorzy
             </h2>
             <p className="text-gray-600 leading-relaxed">
-                Konferencja organizowana jest przez Klinikę Psychiatrii Uniwersytetu Medycznego w Białymstoku.
+                Konferencja współorganizowana jest przez Klinikę Psychiatrii Uniwersytetu Medycznego w Bialymstoku, Okręgową Izbe Lekarską w Bialymstoku oraz Podlaski oddział Polskiego Towarzystwa Psychiatrycznego.
             </p>
           </div>
         </div>

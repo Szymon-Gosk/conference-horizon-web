@@ -18,23 +18,31 @@ import {Button} from "@/components/ui/button";
 
 const Program = () => {
   const schedule = [
-    {startTime: "13:30", endTime: "14:00", title: "Rejestracja uczestników", type: "break", icon: ClipboardPen},
     {
-      time: "14:00",
-      title: "Otwarcie Konferencji",
-      speaker: "  Powitanie uczestników i wprowadzenie do tematyki uzależnień XXI wieku\n",
+      time: "13:30",
+      title: "Rejestracja uczestników",
+      speaker: "  sesja plakatowa studentów UMB\n",
       type: "speech",
-      icon: University
+      icon: ClipboardPen
+    },
+    {startTime: "13:30", endTime: "13:40", title: "Rozpoczęcie konferencji", type: "break", icon: University},
+    {
+      time: "13:40",
+      speaker: "dr n. społ. Artur Malczewski",
+      speakerDescription: "Zastępca Dyrektora ds. Lecznictwa, Badań i Certfikacji",
+      title: "Od „narkotyków” do substancji psychoaktywnych - jak zmienia się obecnie sytuacja w Europie w świetle najnowszych danych Europejskiej Agencji ds. Narkotyków (EUDA)\n",
+      type: "speech",
+      icon: MessageCircle
     },
     {
-      time: "14:10",
+      time: "14:00",
       speaker: "dr hab. n. med. Agnieszka Kułak-Bejda",
       title: "Kobiece oblicze uzależnienia – między biologią a terapią\n",
       type: "speech",
       icon: MessageCircle
     },
     {
-      time: "14:45",
+      time: "14:35",
       speaker: "prof. dr hab. n. med.  Napoleon Waszkiewicz",
       speakerDescription: "Członek Honorowy Komitetu Naukowego",
       title: "Nowe substancje psychoaktywne na rynku – czego powinniśmy się obawiać?\n",
@@ -42,15 +50,15 @@ const Program = () => {
       icon: MessageCircle
     },
     {
-      time: "15:25",
+      time: "15:15",
       speaker: "dr n. med. Bohdan Tadeusz Woronowicz (Warszawa)",
       title: "Uzależnienie wśród lekarzy – choroba w białym fartuchu\n",
       type: "speech",
       icon: MessageCircle
     },
-    {startTime: "16:05", endTime: "16:20", title: "I przerwa kawowa", type: "break", icon: Coffee},
+    {startTime: "15:55", endTime: "16:10", title: "I przerwa kawowa", type: "break", icon: Coffee},
     {
-      time: "16:20",
+      time: "16:10",
       speaker: "dr n. med. Anna Rogowska Zach",
       speakerDescription: "Konsultant wojewódzki w dziedzinie psychoterapii dzieci i młodzieży",
       title: "„Bez algorytmu nie dam rady?” Uzależnienie od AI i kryzys autonomii młodych ludzi\n",
@@ -58,15 +66,15 @@ const Program = () => {
       icon: MessageCircle
     },
     {
-      time: "16:55",
+      time: "16:45",
       speaker: "mgr Joanna Szmurło-Grzybko",
       title: "Uzależnienie nie bierze się znikąd – regulacja emocji, relacja terapeutyczna i trudne realia leczenia uzależnień dzieci i młodzieży",
       type: "speech",
       icon: MessageCircle
     },
-    {startTime: "17:30", endTime: "17:45", title: "II przerwa kawowa", type: "break", icon: Coffee},
+    {startTime: "17:20", endTime: "17:35", title: "II przerwa kawowa", type: "break", icon: Coffee},
     {
-      time: "17:45",
+      time: "17:35",
       speaker: "dr n. med. Przemysław Osip (Poznań)",
       speakerDescription: "Sylwia Szymkowiak: Lekarz specjalista psychiatrii oraz psychoterapeutka systemowa (Poznań)",
       title: "Fentanyl – narkotyk zombie już w Polsce. Pomiędzy psychiatrią a neurologią.\n",
@@ -74,7 +82,7 @@ const Program = () => {
       icon: MessageCircle
     },
     {
-      time: "18:20 ",
+      time: "18:10",
       speaker: "dr n. med. Justyna Sołowiej",
       speakerDescription: "Wiktor Orlof: Lekarz specjalista psychiatrii",
       title: "Cyberseks i uzależnienia behawioralne – nowe trendy we współczesnej seksuologii\n",
@@ -82,7 +90,7 @@ const Program = () => {
       icon: MessageCircle
     },
     {
-      time: "18:55",
+      time: "18:45",
       speaker: "mgr Renata Szymańska",
       speakerDescription: "Dyrektor WOPiTU w Łomży, konsultant wojewódzki w dziedzinie uzależnień",
       title: "Praca z doświadczeniem ciała w terapii osób uzależnionych – proces zmiany\n",
@@ -90,7 +98,7 @@ const Program = () => {
       icon: MessageCircle
     },
     {
-      time: "19:30",
+      time: "19:20",
       speaker: "mgr Justyna Śniadach",
       title: "Jak szybko i skutecznie rzucić palenie? Przegląd najnowszych metod i rekomendacji\n",
       type: "speech",

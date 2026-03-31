@@ -18,7 +18,6 @@ const Committee = () => {
 
   const organizingCommitteeChair = {
     name: "mgr Justyna Śniadach",
-    title: "",
   };
 
   // const organizingCommitteeViceChair = {
@@ -26,7 +25,7 @@ const Committee = () => {
   //   title: "Prorektor ds. Studenckich Akademii Podlaskiej w Białymstoku",
   // };
   //
-  // const organizingCommitteeMembers = [
+  const organizingCommitteeMembers = [
   //   {
   //     name: "mgr Michał Łopiński",
   //     title: "Kierownik Akademii Podlaskiej w Białymstoku",
@@ -35,16 +34,14 @@ const Committee = () => {
   //     name: "Karolina Chomiczewska",
   //     title: "Przewodnicząca Studenckiego Koła Naukowego\"Psychologiczne Inspiracje\"",
   //   },
-  //   {
-  //     name: "Agnieszka Sienkiewicz",
-  //     title: "[zredagowano]",
-  //   },
+    {
+      name: "Patrycja Piskurewicz",
+    },
+    {
+      name: "Agnieszka Sienkiewicz",
+    },
   //   {
   //     name: "Wiktoria Sadlej",
-  //     title: "[zredagowano]",
-  //   },
-  //   {
-  //     name: "Patrycja Piskurewicz",
   //     title: "[zredagowano]",
   //   },
   //   {
@@ -63,26 +60,26 @@ const Committee = () => {
   //     name: "Joanna Sobolewska",
   //     title: "[zredagowano]",
   //   },
-  // ];
+  ];
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
       {/* Scientific Committee Section */}
       <section>
-          {/* TEMP INFO BOX */}
-          <div className="space-y-8 mb-8">
-              <div className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col md:flex-row">
-                  <div className="md:w-3/4 p-6">
-                      <h2 className="text-2xl font-bold text-primary mb-2">
-                          Pełna lista składu Komitetu Naukowego zostanie opublikowana wkrótce.
-                      </h2>
-                      {/*<h3 className="text-lg text-primary mb-4 italic"></h3>*/}
-                      {/*<h3 className="text-lg text-primary mb-4 italic"></h3>*/}
-                      <p className="text-gray-700"></p>
-                  </div>
-              </div>
-          </div>
-          {/* END OF TEMP INFO BOX */}
+          {/*/!* TEMP INFO BOX *!/*/}
+          {/*<div className="space-y-8 mb-8">*/}
+          {/*    <div className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col md:flex-row">*/}
+          {/*        <div className="md:w-3/4 p-6">*/}
+          {/*            <h2 className="text-2xl font-bold text-primary mb-2">*/}
+          {/*                Pełna lista składu Komitetu Naukowego zostanie opublikowana wkrótce.*/}
+          {/*            </h2>*/}
+          {/*            /!*<h3 className="text-lg text-primary mb-4 italic"></h3>*!/*/}
+          {/*            /!*<h3 className="text-lg text-primary mb-4 italic"></h3>*!/*/}
+          {/*            <p className="text-gray-700"></p>*/}
+          {/*        </div>*/}
+          {/*    </div>*/}
+          {/*</div>*/}
+          {/*/!* END OF TEMP INFO BOX *!/*/}
         <h1 className="text-4xl font-bold text-primary mb-8">
           Skład komitetu naukowego
         </h1>
@@ -114,9 +111,9 @@ const Committee = () => {
             <h2 className="text-2xl font-bold text-primary">
               {organizingCommitteeChair.name}
             </h2>
-            <p className="text-lg text-gray-600 mt-2">
-              {organizingCommitteeChair.title}
-            </p>
+            {/*<p className="text-lg text-gray-600 mt-2">*/}
+            {/*  {organizingCommitteeChair.title}*/}
+            {/*</p>*/}
           </div>
         </div>
 
@@ -135,21 +132,21 @@ const Committee = () => {
         {/*  </div>*/}
         {/*</div>*/}
 
-        {/*/!* Members *!/*/}
-        {/*<h2 className="text-2xl font-bold text-primary mb-4">Członkowie komitetu</h2>*/}
-        {/*<div className="bg-white rounded-lg shadow-sm p-8">*/}
-        {/*  <div className="grid gap-8">*/}
-        {/*    {organizingCommitteeMembers.map((member, index) => (*/}
-        {/*      <div*/}
-        {/*        key={index}*/}
-        {/*        className="border-b border-gray-200 last:border-0 pb-6 last:pb-0"*/}
-        {/*      >*/}
-        {/*        <h2 className="text-2xl font-bold text-primary">{member.name}</h2>*/}
-        {/*        <p className="text-lg text-gray-600 mt-2">{member.title}</p>*/}
-        {/*      </div>*/}
-        {/*    ))}*/}
-        {/*  </div>*/}
-        {/*</div>*/}
+        {/* Members */}
+        <h2 className="text-2xl font-bold text-primary mb-4">Członkowie komitetu</h2>
+        <div className="bg-white rounded-lg shadow-sm p-8">
+          <div className="grid gap-8">
+            {organizingCommitteeMembers.map((member, index) => (
+              <div
+                key={index}
+                className="border-b border-gray-200 last:border-0 pb-6 last:pb-0"
+              >
+                <h2 className="text-2xl font-bold text-primary">{member.name}</h2>
+                {/*<p className="text-lg text-gray-600 mt-2">{member.title}</p>*/}
+              </div>
+            ))}
+          </div>
+        </div>
       </section>
     </div>
   );
