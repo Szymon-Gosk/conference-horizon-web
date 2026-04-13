@@ -27,6 +27,19 @@ const Speakers = () => {
       image: "/speakers/WORON.jpg",
     },
     {
+      name: "dr n. społ. Artur Malczewski",
+      title: "Z-ca Dyrektora Krajowego Centrum Przeciwdziałania Uzależnieniom",
+      secondTitle: "Dziedzina: Socjologia, Geografia Społeczno-Ekonomiczna",
+      description: [
+        "• Od 25 lat pracuję w KCPU (wcześniej w Krajowym Biurze ds. Przeciwdziałania Narkomanii)",
+        "• Był współprzewodniczącym Grupy Roboczej ds. Narkotyków w Brukseli (HDG) w trakcie polskiej prezydencji w Radzie Unii Europejskiej.",
+        "• Brał udział w kilkunastu międzynarodowych projektach dotyczących problemu narkotyków oraz profilaktyki w efekcie jest m.in. współtwórcą European Drug Prevention Quality Standards (EDPQS).",
+        "• Członek zarządu Agencji Komisji Europejskiej ds. Narkotyków (EUDA).",
+        "• Otrzymał nagrodę Europen Society for Prevention Research  „The Leading European Prevention Science Practitioner Honour”  w 2021 roku oraz został uhonorowany odznaczeniem Ministra Zdrowia „Zasłużony dla ochrony zdrowia” w 2022 roku.",
+      ],
+      image: "/speakers/ARTUR.jpg",
+    },
+    {
       name: "dr n. med. Anna Rogowska-Zach",
       title: "Dziedzina: Psychologia, Psychoterapia dzieci i młodzieży",
       description: [

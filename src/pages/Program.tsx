@@ -19,15 +19,20 @@ import {Button} from "@/components/ui/button";
 const Program = () => {
   const schedule = [
     {
-      time: "13:30",
+      time: "13:00 - 13:15",
       title: "Rejestracja uczestników",
-      speaker: "  sesja plakatowa studentów UMB\n",
+      type: "speech",
+      icon: ClipboardPen
+    },
+    {
+      time: "13:00 - 13:15",
+      title: "Sesja plakatowa studentów UMB",
       type: "speech",
       icon: ClipboardPen
     },
     {startTime: "13:30", endTime: "13:40", title: "Rozpoczęcie konferencji", type: "break", icon: University},
     {
-      time: "13:40",
+      time: "13:40 - 14:00  Sesja otwarcia",
       speaker: "dr n. społ. Artur Malczewski",
       speakerDescription: "Zastępca Dyrektora ds. Lecznictwa, Badań i Certfikacji",
       title: "Od „narkotyków” do substancji psychoaktywnych - jak zmienia się obecnie sytuacja w Europie w świetle najnowszych danych Europejskiej Agencji ds. Narkotyków (EUDA)\n",
@@ -35,46 +40,46 @@ const Program = () => {
       icon: MessageCircle
     },
     {
-      time: "14:00",
-      speaker: "dr hab. n. med. Agnieszka Kułak-Bejda",
+      time: "14:00 - 14:30",
+      speaker: "dr hab. n. med. Agnieszka Kułak-Bejda (UMB)",
       title: "Kobiece oblicze uzależnienia – między biologią a terapią\n",
       type: "speech",
       icon: MessageCircle
     },
     {
-      time: "14:35",
+      time: "14:30 - 15:10 Wykład inauguracyjny",
       speaker: "prof. dr hab. n. med.  Napoleon Waszkiewicz",
-      speakerDescription: "Członek Honorowy Komitetu Naukowego",
+      speakerDescription: " Przewodniczący Komitetu Naukowego (UMB)",
       title: "Nowe substancje psychoaktywne na rynku – czego powinniśmy się obawiać?\n",
       type: "speech",
       icon: MessageCircle
     },
     {
-      time: "15:15",
+      time: "15:10 - 15:50",
       speaker: "dr n. med. Bohdan Tadeusz Woronowicz (Warszawa)",
       title: "Uzależnienie wśród lekarzy – choroba w białym fartuchu\n",
       type: "speech",
       icon: MessageCircle
     },
-    {startTime: "15:55", endTime: "16:10", title: "I przerwa kawowa", type: "break", icon: Coffee},
+    {startTime: "15:50", endTime: "16:10", title: "I przerwa kawowa", type: "break", icon: Coffee},
     {
-      time: "16:10",
+      time: "16:10 - 16:45",
       speaker: "dr n. med. Anna Rogowska Zach",
-      speakerDescription: "Konsultant wojewódzki w dziedzinie psychoterapii dzieci i młodzieży",
+      speakerDescription: "Konsultant wojewódzki w dziedzinie psychoterapii dzieci i młodzieży (UMB)",
       title: "„Bez algorytmu nie dam rady?” Uzależnienie od AI i kryzys autonomii młodych ludzi\n",
       type: "speech",
       icon: MessageCircle
     },
     {
-      time: "16:45",
+      time: "16:45 - 17:15",
       speaker: "mgr Joanna Szmurło-Grzybko",
       title: "Uzależnienie nie bierze się znikąd – regulacja emocji, relacja terapeutyczna i trudne realia leczenia uzależnień dzieci i młodzieży",
       type: "speech",
       icon: MessageCircle
     },
-    {startTime: "17:20", endTime: "17:35", title: "II przerwa kawowa", type: "break", icon: Coffee},
+    {startTime: "17:15", endTime: "17:35", title: "II przerwa kawowa", type: "break", icon: Coffee},
     {
-      time: "17:35",
+      time: "17:35 - 18:05",
       speaker: "dr n. med. Przemysław Osip (Poznań)",
       speakerDescription: "Sylwia Szymkowiak: Lekarz specjalista psychiatrii oraz psychoterapeutka systemowa (Poznań)",
       title: "Fentanyl – narkotyk zombie już w Polsce. Pomiędzy psychiatrią a neurologią.\n",
@@ -82,15 +87,15 @@ const Program = () => {
       icon: MessageCircle
     },
     {
-      time: "18:10",
+      time: "18:05 - 18:40",
       speaker: "dr n. med. Justyna Sołowiej",
-      speakerDescription: "Wiktor Orlof: Lekarz specjalista psychiatrii",
+      speakerDescription: "Wiktor Orlof: Lekarz specjalista psychiatrii (UMB)",
       title: "Cyberseks i uzależnienia behawioralne – nowe trendy we współczesnej seksuologii\n",
       type: "speech",
       icon: MessageCircle
     },
     {
-      time: "18:45",
+      time: "18:40 - 19:15",
       speaker: "mgr Renata Szymańska",
       speakerDescription: "Dyrektor WOPiTU w Łomży, konsultant wojewódzki w dziedzinie uzależnień",
       title: "Praca z doświadczeniem ciała w terapii osób uzależnionych – proces zmiany\n",
@@ -98,14 +103,14 @@ const Program = () => {
       icon: MessageCircle
     },
     {
-      time: "19:20",
-      speaker: "mgr Justyna Śniadach",
+      time: "19:15 - 19:45 Sesja zamknięcia",
+      speaker: "mgr Justyna Śniadach (UMB)",
       title: "Jak szybko i skutecznie rzucić palenie? Przegląd najnowszych metod i rekomendacji\n",
       type: "speech",
       icon: MessageCircle
     },
     {
-      time: "19:45",
+      time: "19:45 - 20:00",
       title: "Zakończenie konferencji",
       speaker: "  Podsumowanie kluczowych wniosków, podziękowania dla prelegentów, gości specjalnych  i uczestników, zaproszenie do rozmów kuluarowych",
       type: "speech",
@@ -129,28 +134,21 @@ const Program = () => {
       if (i === 2) {
         items.push(
           <h2 key="section1" className="text-2xl font-semibold text-primary mt-10 mb-6">
-            Sesja otwarcia – wykłady inauguracyjne
+            Panel I
           </h2>
         );
       }
-      if (i === 5) {
+      if (i === 8) {
         items.push(
           <h2 key="section1" className="text-2xl font-semibold text-primary mt-10 mb-6">
-            Sesja II
+            Panel II
           </h2>
         );
       }
-      if (i === 9) {
+      if (i === 11) {
         items.push(
           <h2 key="section2" className="text-2xl font-semibold text-primary mt-10 mb-6">
-            Sesja III
-          </h2>
-        );
-      }
-      if (i === 12) {
-        items.push(
-          <h2 key="section2" className="text-2xl font-semibold text-primary mt-10 mb-6">
-            Sesja zamknięcia
+            Panel III
           </h2>
         );
       }

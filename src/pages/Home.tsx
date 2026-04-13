@@ -35,8 +35,8 @@ const Home = () => {
           <div className="bg-white rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow">
             <MapPin className="w-10 h-10 text-primary mb-4"/>
             <h3 className="text-xl font-semibold mb-2">Lokalizacja</h3>
-            <p className="text-gray-600">Wydział Nauk o Zdrowiu UMB</p>
-            <p className="text-gray-600 mt-2"></p>
+            <p className="text-gray-600">Wydział Nauk o Zdrowiu UMB,</p>
+            <p className="text-gray-600 mt-2"> ul.Szpitalna 37, Białystok</p>
             <p className="text-gray-600 mt-2"></p>
           </div>
           <div className="bg-white rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow">
@@ -90,8 +90,7 @@ const Home = () => {
               Co zyskam?
             </h2>
             <p className="text-gray-600 leading-relaxed">
-                Każdy uczestnik otrzyma certyfikat udziału w konferencji oraz identyfikator ze smyczą.
-                Wydarzenie będzie także okazją do zdobycia punktów edukacyjnych dla lekarzy rezydentów oraz przedstawicieli innych zawodów medycznych (zgodnie z obowiązującymi przepisami).
+              Każdy uczestnik otrzyma certyfikat w formie elektronicznej za udziału w konferencji. Wydarzenie będzie także okazją do zdobycia punktów edukacyjnych dla lekarzy rezydentów oraz przedstawicieli innych zawodów medycznych (zgodnie z obowiązującymi przepisami). W trakcie przerw kawowych dostępny będzie bufet kawowy ze słodkimi i wytrawnymi przekąskami.
             </p>
           </div>
 
@@ -109,7 +108,7 @@ const Home = () => {
               Organizatorzy
             </h2>
             <p className="text-gray-600 leading-relaxed">
-                Konferencja współorganizowana jest przez Klinikę Psychiatrii Uniwersytetu Medycznego w Bialymstoku, Okręgową Izbe Lekarską w Bialymstoku oraz Podlaski oddział Polskiego Towarzystwa Psychiatrycznego.
+              Konferencja współorganizowana jest przez Klinikę Psychiatrii Uniwersytetu Medycznego w Białymstoku, Krajowe Centrum Przeciwdziałania Uzależnieniom, Okręgową Izbę Lekarską w Białymstoku i Podlaski oddział Polskiego Towarzystwa Psychiatrycznego.
             </p>
           </div>
         </div>

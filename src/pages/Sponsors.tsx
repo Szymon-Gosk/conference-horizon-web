@@ -2,21 +2,33 @@
 const Sponsors = () => {
   const sponsors = [
     {
-      name: "Adamed",
+      name: "Adamed Pharma S.A.",
       logo: "/sponsors/Adamed-logo.png",
     },
     {
       name: "Polpharma",
       logo: "/sponsors/polpharma-logo.jpg",
     },
-    // {
-    //   name: "Urząd Miejski w Białymstoku",
-    //   logo: "/sponsors/sponsor-bialystok.png",
-    // },
-    // {
-    //   name: "Urząd Marszałkowski Województwa Podlaskiego",
-    //   logo: "/sponsors/sponsor-wojewodztwo.png",
-    // },
+    {
+      name: "Urząd Miejski w Białymstoku",
+      logo: "/sponsors/sponsor-bialystok.png",
+    },
+    {
+      name: "Urząd Marszałkowski Województwa Podlaskiego",
+      logo: "/sponsors/sponsor-wojewodztwo.png",
+    },
+    {
+      name: "Uniwersytet Medyczny w Białymstoku",
+      logo: "/logos/logo-umb-trimmed.png",
+    },
+    {
+      name: "Okręgowa Izba Lekarska w Białymstoku",
+      logo: "/logos/oil.png"
+    },
+    {
+      name: "Krajowe Centrum Przeciwdziałania Uzależnieniom",
+      logo: "/logos/kcpu.png"
+    },
   ];
 
 
@@ -26,27 +38,43 @@ const Sponsors = () => {
       
       {/* Sponsors */}
       <div className="bg-white rounded-lg shadow-sm p-8">
-        {/*<div className="grid grid-cols-1 md:grid-cols-3 gap-8">*/}
-        {/*  {sponsors.slice(0, 3).map((sponsor, index) => (*/}
-        {/*    <div*/}
-        {/*      key={index}*/}
-        {/*      className="flex flex-col items-center justify-center p-4"*/}
-        {/*    >*/}
-        {/*      <img*/}
-        {/*        src={sponsor.logo}*/}
-        {/*        alt={sponsor.name}*/}
-        {/*        className="h-24 w-auto mb-4"*/}
-        {/*        loading="lazy"*/}
-        {/*      />*/}
-        {/*      <p className="text-center text-gray-600">{sponsor.name}</p>*/}
-        {/*    </div>*/}
-        {/*  ))}*/}
-        {/*</div>*/}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {sponsors.slice(0, 3).map((sponsor, index) => (
+            <div
+              key={index}
+              className="flex flex-col items-center justify-center p-4"
+            >
+              <img
+                src={sponsor.logo}
+                alt={sponsor.name}
+                className="h-24 w-auto mb-4"
+                loading="lazy"
+              />
+              <p className="text-center text-gray-600">{sponsor.name}</p>
+            </div>
+          ))}
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {sponsors.slice(3, 6).map((sponsor, index) => (
+            <div
+              key={index}
+              className="flex flex-col items-center justify-center p-4"
+            >
+              <img
+                src={sponsor.logo}
+                alt={sponsor.name}
+                className="h-24 w-auto mb-4"
+                loading="lazy"
+              />
+              <p className="text-center text-gray-600">{sponsor.name}</p>
+            </div>
+          ))}
+        </div>
         
         {/* Second row of sponsors, centered */}
         <div className="flex justify-center mt-8">
-          <div className="grid grid-cols-2 gap-8 max-w-[66%]">
-            {sponsors.slice(0, 2).map((sponsor, index) => (
+          <div className="grid grid-cols-1 gap-8 max-w-[66%]">
+            {sponsors.slice(6, 7).map((sponsor, index) => (
               <div
                 key={index + 3}
                 className="flex flex-col items-center justify-center p-4"
